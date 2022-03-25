@@ -1,0 +1,126 @@
+﻿  main.cpp
+C:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\ie_common.h(296,82): warning C4275: 非 dll 接口 class“std::runtime_error”用作 dll 接口 struct“InferenceEngine::details::InferenceEngineException”的基
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\stdexcept(107): message : 参见“std::runtime_error”的声明
+C:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\ie_common.h(296): message : 参见“InferenceEngine::details::InferenceEngineException”的声明
+C:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\ie_layouts.h(142,16): warning C4251: “InferenceEngine::BlockingDesc::blockedDims”: class“std::vector<size_t,std::allocator<size_t>>”需要有 dll 接口由 class“InferenceEngine::BlockingDesc”的客户端使用
+C:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\ie_common.h(34): message : 参见“std::vector<size_t,std::allocator<size_t>>”的声明
+C:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\ie_layouts.h(144,16): warning C4251: “InferenceEngine::BlockingDesc::strides”: class“std::vector<size_t,std::allocator<size_t>>”需要有 dll 接口由 class“InferenceEngine::BlockingDesc”的客户端使用
+C:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\ie_common.h(34): message : 参见“std::vector<size_t,std::allocator<size_t>>”的声明
+C:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\ie_layouts.h(146,16): warning C4251: “InferenceEngine::BlockingDesc::order”: class“std::vector<size_t,std::allocator<size_t>>”需要有 dll 接口由 class“InferenceEngine::BlockingDesc”的客户端使用
+C:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\ie_common.h(34): message : 参见“std::vector<size_t,std::allocator<size_t>>”的声明
+C:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\ie_layouts.h(149,16): warning C4251: “InferenceEngine::BlockingDesc::offsetPaddingToData”: class“std::vector<size_t,std::allocator<size_t>>”需要有 dll 接口由 class“InferenceEngine::BlockingDesc”的客户端使用
+C:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\ie_common.h(34): message : 参见“std::vector<size_t,std::allocator<size_t>>”的声明
+C:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\ie_layouts.h(315,16): warning C4251: “InferenceEngine::TensorDesc::dims”: class“std::vector<size_t,std::allocator<size_t>>”需要有 dll 接口由 class“InferenceEngine::TensorDesc”的客户端使用
+C:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\ie_common.h(34): message : 参见“std::vector<size_t,std::allocator<size_t>>”的声明
+C:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\ie_layouts.h(319,15): warning C4251: “InferenceEngine::TensorDesc::precision”: class“InferenceEngine::Precision”需要有 dll 接口由 class“InferenceEngine::TensorDesc”的客户端使用
+C:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\ie_precision.hpp(24): message : 参见“InferenceEngine::Precision”的声明
+C:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\ie_data.h(147,27): warning C4251: “InferenceEngine::Data::_impl”: class“std::shared_ptr<InferenceEngine::Data::Impl>”需要有 dll 接口由 class“InferenceEngine::Data”的客户端使用
+C:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\ie_data.h(147): message : 参见“std::shared_ptr<InferenceEngine::Data::Impl>”的声明
+C:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\ie_data.h(153,17): warning C4251: “InferenceEngine::Data::name”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“InferenceEngine::Data”的客户端使用
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4905): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+C:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\ie_icnn_network.hpp(36,97): warning C4251: “std::enable_shared_from_this<InferenceEngine::ICNNNetwork>::_Wptr”: class“std::weak_ptr<_Ty>”需要有 dll 接口由 class“std::enable_shared_from_this<InferenceEngine::ICNNNetwork>”的客户端使用
+          with
+          [
+              _Ty=InferenceEngine::ICNNNetwork
+          ]
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\memory(3079): message : 参见“std::weak_ptr<_Ty>”的声明
+          with
+          [
+              _Ty=InferenceEngine::ICNNNetwork
+          ]
+C:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\ie_iextension.h(147,96): warning C4251: “std::enable_shared_from_this<InferenceEngine::IExtension>::_Wptr”: class“std::weak_ptr<_Ty>”需要有 dll 接口由 class“std::enable_shared_from_this<InferenceEngine::IExtension>”的客户端使用
+          with
+          [
+              _Ty=InferenceEngine::IExtension
+          ]
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\memory(3079): message : 参见“std::weak_ptr<_Ty>”的声明
+          with
+          [
+              _Ty=InferenceEngine::IExtension
+          ]
+C:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\details\ie_so_loader.h(24,27): warning C4251: “InferenceEngine::details::SharedObjectLoader::_impl”: class“std::shared_ptr<InferenceEngine::details::SharedObjectLoader::Impl>”需要有 dll 接口由 class“InferenceEngine::details::SharedObjectLoader”的客户端使用
+C:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\details\ie_so_loader.h(24): message : 参见“std::shared_ptr<InferenceEngine::details::SharedObjectLoader::Impl>”的声明
+C:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\ie_extension.h(100,36): warning C4251: “InferenceEngine::Extension::actual”: class“InferenceEngine::details::SOPointer<InferenceEngine::IExtension>”需要有 dll 接口由 class“InferenceEngine::Extension”的客户端使用
+C:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\ie_extension.h(100): message : 参见“InferenceEngine::details::SOPointer<InferenceEngine::IExtension>”的声明
+C:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\cpp\ie_cnn_network.h(214,34): warning C4251: “InferenceEngine::CNNNetwork::network”: class“std::shared_ptr<_Ty>”需要有 dll 接口由 class“InferenceEngine::CNNNetwork”的客户端使用
+          with
+          [
+              _Ty=InferenceEngine::ICNNNetwork
+          ]
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\memory(3071): message : 参见“std::shared_ptr<_Ty>”的声明
+          with
+          [
+              _Ty=InferenceEngine::ICNNNetwork
+          ]
+C:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\ie_compound_blob.h(110,28): warning C4251: “InferenceEngine::CompoundBlob::_blobs”: class“std::vector<InferenceEngine::Blob::Ptr,std::allocator<InferenceEngine::Blob::Ptr>>”需要有 dll 接口由 class“InferenceEngine::CompoundBlob”的客户端使用
+C:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\ie_iextension.h(140): message : 参见“std::vector<InferenceEngine::Blob::Ptr,std::allocator<InferenceEngine::Blob::Ptr>>”的声明
+C:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\cpp\ie_memory_state.hpp(30,46): warning C4251: “InferenceEngine::VariableState::_impl”: class“std::shared_ptr<InferenceEngine::IVariableStateInternal>”需要有 dll 接口由 class“InferenceEngine::VariableState”的客户端使用
+C:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\cpp\ie_memory_state.hpp(30): message : 参见“std::shared_ptr<InferenceEngine::IVariableStateInternal>”的声明
+C:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\cpp\ie_memory_state.hpp(32,46): warning C4251: “InferenceEngine::VariableState::actual”: class“std::shared_ptr<InferenceEngine::IVariableState>”需要有 dll 接口由 class“InferenceEngine::VariableState”的客户端使用
+C:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\ie_imemory_state.hpp(31): message : 参见“std::shared_ptr<InferenceEngine::IVariableState>”的声明
+C:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\cpp\ie_infer_request.hpp(37,58): warning C4251: “InferenceEngine::InferRequest::_impl”: class“std::shared_ptr<InferenceEngine::IInferRequestInternal>”需要有 dll 接口由 class“InferenceEngine::InferRequest”的客户端使用
+C:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\cpp\ie_infer_request.hpp(37): message : 参见“std::shared_ptr<InferenceEngine::IInferRequestInternal>”的声明
+C:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\cpp\ie_infer_request.hpp(39,58): warning C4251: “InferenceEngine::InferRequest::actual”: class“std::shared_ptr<_Ty>”需要有 dll 接口由 class“InferenceEngine::InferRequest”的客户端使用
+          with
+          [
+              _Ty=InferenceEngine::IInferRequest
+          ]
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\memory(3071): message : 参见“std::shared_ptr<_Ty>”的声明
+          with
+          [
+              _Ty=InferenceEngine::IInferRequest
+          ]
+C:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\cpp\ie_infer_request.hpp(40,58): warning C4251: “InferenceEngine::InferRequest::callback”: class“std::shared_ptr<InferenceEngine::details::ICompletionCallbackWrapper>”需要有 dll 接口由 class“InferenceEngine::InferRequest”的客户端使用
+C:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\cpp\ie_infer_request.hpp(40): message : 参见“std::shared_ptr<InferenceEngine::details::ICompletionCallbackWrapper>”的声明
+C:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\cpp\ie_executable_network.hpp(34,50): warning C4251: “InferenceEngine::ExecutableNetwork::_impl”: class“std::shared_ptr<InferenceEngine::IExecutableNetworkInternal>”需要有 dll 接口由 class“InferenceEngine::ExecutableNetwork”的客户端使用
+C:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\cpp\ie_executable_network.hpp(34): message : 参见“std::shared_ptr<InferenceEngine::IExecutableNetworkInternal>”的声明
+C:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\cpp\ie_executable_network.hpp(36,50): warning C4251: “InferenceEngine::ExecutableNetwork::actual”: class“std::shared_ptr<_Ty>”需要有 dll 接口由 class“InferenceEngine::ExecutableNetwork”的客户端使用
+          with
+          [
+              _Ty=InferenceEngine::IExecutableNetwork
+          ]
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\memory(3071): message : 参见“std::shared_ptr<_Ty>”的声明
+          with
+          [
+              _Ty=InferenceEngine::IExecutableNetwork
+          ]
+C:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\ie_core.hpp(34,27): warning C4251: “InferenceEngine::Core::_impl”: class“std::shared_ptr<InferenceEngine::Core::Impl>”需要有 dll 接口由 class“InferenceEngine::Core”的客户端使用
+C:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\inference_engine\include\ie_core.hpp(34): message : 参见“std::shared_ptr<InferenceEngine::Core::Impl>”的声明
+E:\Project\cpp_project\VideoCutout\VideoCutout\main.cpp(53,10): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\Project\cpp_project\VideoCutout\VideoCutout\main.cpp(111,16): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\Project\cpp_project\VideoCutout\VideoCutout\main.cpp(112,16): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\Project\cpp_project\VideoCutout\VideoCutout\main.cpp(134,39): warning C4267: “参数”: 从“size_t”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+E:\Project\cpp_project\VideoCutout\VideoCutout\main.cpp(142,82): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+E:\Project\cpp_project\VideoCutout\VideoCutout\main.cpp(142,86): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+E:\Project\cpp_project\VideoCutout\VideoCutout\main.cpp(142,89): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\Project\cpp_project\VideoCutout\VideoCutout\main.cpp(162,36): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\Project\cpp_project\VideoCutout\VideoCutout\main.cpp(162,36): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+E:\Project\cpp_project\VideoCutout\VideoCutout\main.cpp(163,36): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\Project\cpp_project\VideoCutout\VideoCutout\main.cpp(163,36): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+E:\Project\cpp_project\VideoCutout\VideoCutout\main.cpp(164,37): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\Project\cpp_project\VideoCutout\VideoCutout\main.cpp(164,37): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+E:\Project\cpp_project\VideoCutout\VideoCutout\main.cpp(165,37): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\Project\cpp_project\VideoCutout\VideoCutout\main.cpp(165,37): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+E:\Project\cpp_project\VideoCutout\VideoCutout\main.cpp(214,12): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\Project\cpp_project\VideoCutout\VideoCutout\main.cpp(215,13): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\Project\cpp_project\VideoCutout\VideoCutout\main.cpp(280,36): warning C4267: “参数”: 从“size_t”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+E:\Project\cpp_project\VideoCutout\VideoCutout\main.cpp(287,75): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+E:\Project\cpp_project\VideoCutout\VideoCutout\main.cpp(287,79): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+E:\Project\cpp_project\VideoCutout\VideoCutout\main.cpp(304,45): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\Project\cpp_project\VideoCutout\VideoCutout\main.cpp(304,45): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+E:\Project\cpp_project\VideoCutout\VideoCutout\main.cpp(305,39): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\Project\cpp_project\VideoCutout\VideoCutout\main.cpp(305,39): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+  正在生成代码
+  1 of 443 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    7 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  VideoCutout.vcxproj -> E:\Project\cpp_project\VideoCutout\x64\Release\VideoCutout.exe
