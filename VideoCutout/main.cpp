@@ -5,6 +5,8 @@
 #include <opencv2/opencv.hpp>
 #include <opencv2/dnn.hpp>
 #include <iostream>
+#include <direct.h>
+#include <io.h>
 
 #include "opencv2/highgui/highgui.hpp" 
 #include "opencv2/imgproc/imgproc.hpp"
@@ -67,13 +69,18 @@ void yolov5_onnx_demo() {
 	int image_width = src.cols;
 	VideoCapture cap;
 	cap.open("E:/Project/cpp_project/VideoCutout/VideoCutout/TEST_01.mp4");
-
+	// 创建文件夹
+	string folderPath = "./TEST_01";
+	if (0 != access(folderPath.c_str(), 0))
+	{
+		mkdir(folderPath.c_str());   // 返回 0 表示创建成功，-1 表示失败
+	}
 
 	// 创建IE插件, 查询支持硬件设备
 	Core ie;
 	vector<string> availableDevices = ie.GetAvailableDevices();
 	for (int i = 0; i < availableDevices.size(); i++) {
-		printf("supported device name : %s \n", availableDevices[i].c_str());
+		std::printf("supported device name : %s \n", availableDevices[i].c_str());
 	}
 
 	//  加载检测模型
@@ -150,7 +157,7 @@ void yolov5_onnx_demo() {
 			//int mask[56][56];
 			//int mask[448][448];
 			Mat mask = Mat::zeros(448, 448, CV_8UC1);
-			auto& mask_data = mask.data;
+			Mat seg_result = blob_image.clone();
 			for (auto& item : output_info) {
 				auto output_name = item.first;
 				//printf("output_name : %s \n", output_name.c_str());
@@ -182,13 +189,21 @@ void yolov5_onnx_demo() {
 						if (output_blob[object_index] > output_blob[background_index]) {
 							//mask_data[background_index] = 1;
 							mask.at<uchar>(row, col) = 255;
+							/*seg_result.at<uchar>(row, col) *= 1;*/
 						}
-						
+						else {
+							//auto k = seg_result.at<uchar>(row, col);
+							seg_result.at<Vec3b>(row, col)[0] = 0;
+							seg_result.at<Vec3b>(row, col)[1] = 0;
+							seg_result.at<Vec3b>(row, col)[2] = 0;
+						}
 
 					}
 				}
 			}
 			frame_num += 1;
+			imwrite("./TEST_01/" + to_string(frame_num) + "_mask.png", mask);
+			imwrite("./TEST_01/" + to_string(frame_num) + "_seg.png", seg_result);
 			//cv::imshow("例子3", mask);
 			//if (cv::waitKey(33) >= 0)
 			//	break;
@@ -206,7 +221,7 @@ void yolov5_onnx_demo() {
 	//vector<int> indices;
 	//NMSBoxes(boxes, confidences, 0.25, 0.5, indices);
 	//for (size_t i = 0; i < indices.size(); ++i)
-	//{
+	//{ 
 	//	int idx = indices[i];
 	//	Rect box = boxes[idx];
 	//	rectangle(src, box, Scalar(140, 199, 0), 4, 8, 0);
@@ -216,7 +231,7 @@ void yolov5_onnx_demo() {
 
 	ostringstream ss;
 	ss << "FPS : " << fps << " segmentation time: " << time * 1000 << " ms";
-	printf("number of images: %d, FPS : %f, time: %f \n", frame_num, fps, time*1000);
+	std::printf("number of images: %d, FPS : %f, time: %f \n", frame_num, fps, time*1000);
 	//putText(src, ss.str(), Point(20, 50), 0, 1.0, Scalar(0, 0, 255), 2);
 
 	//imshow("OpenVINO2021R2+YOLOv5对象检测", src);
@@ -233,7 +248,7 @@ void face_detection_demo() {
 	Core ie;
 	vector<string> availableDevices = ie.GetAvailableDevices();
 	for (int i = 0; i < availableDevices.size(); i++) {
-		printf("supported device name : %s \n", availableDevices[i].c_str());
+		std::printf("supported device name : %s \n", availableDevices[i].c_str());
 	}
 
 	//  加载检测模型
@@ -250,7 +265,7 @@ void face_detection_demo() {
 		input_data->getPreProcess().setResizeAlgorithm(RESIZE_BILINEAR);
 		input_data->getPreProcess().setColorFormat(ColorFormat::RGB);
 	}
-	printf("get it \n");
+	std::printf("get it \n");
 
 	// 设置输出格式
 	for (auto& item : output_info) {
@@ -313,7 +328,7 @@ void face_detection_demo() {
 			float xmax = detection[curProposal * objectSize + 5] * image_width;
 			float ymax = detection[curProposal * objectSize + 6] * image_height;
 			if (confidence > 0.5) {
-				printf("label id : %d\n", static_cast<int>(label));
+				std::printf("label id : %d\n", static_cast<int>(label));
 				Rect rect;
 				rect.x = static_cast<int>(xmin);
 				rect.y = static_cast<int>(ymin);
