@@ -64,13 +64,13 @@ int main(int argc, char** argv) {
 }
 
 void yolov5_onnx_demo() {
-	Mat src = imread("E:/Project/cpp_project/VideoCutout/VideoCutout/000000000552.jpg");
-	int image_height = src.rows;
-	int image_width = src.cols;
+	//Mat src = imread("E:/Project/cpp_project/VideoCutout/VideoCutout/000000000552.jpg");
+	//int image_height = src.rows;
+	//int image_width = src.cols;
 	VideoCapture cap;
-	cap.open("E:/Project/cpp_project/VideoCutout/VideoCutout/TEST_01.mp4");
+	cap.open("./TEST_19.mp4");
 	// 创建文件夹
-	string folderPath = "./TEST_01";
+	string folderPath = "./TEST_19";
 	if (0 != access(folderPath.c_str(), 0))
 	{
 		mkdir(folderPath.c_str());   // 返回 0 表示创建成功，-1 表示失败
@@ -84,7 +84,7 @@ void yolov5_onnx_demo() {
 	}
 
 	//  加载检测模型
-	auto network = ie.ReadNetwork("E:/Project/cpp_project/VideoCutout/VideoCutout/deeplab_ghostnet.xml", "E:/Project/cpp_project/VideoCutout/VideoCutout/deeplab_ghostnet.bin");
+	auto network = ie.ReadNetwork("E:/Project/cpp_project/VideoCutout/VideoCutout/deeplab_mobilenet.xml", "E:/Project/cpp_project/VideoCutout/VideoCutout/deeplab_mobilenet.bin");
 	// auto network = ie.ReadNetwork("D:/python/yolov5/yolov5s.onnx");
 
 	// 请求网络输入与输出信息
@@ -115,8 +115,8 @@ void yolov5_onnx_demo() {
 
 	// 请求推断图
 	auto infer_request = executable_network.CreateInferRequest();
-	float scale_x = image_width / 640.0;
-	float scale_y = image_height / 640.0;
+	//float scale_x = image_width / 640.0;
+	//float scale_y = image_height / 640.0;
 
 	int64 start = getTickCount();
 	int frame_num = 0;
@@ -202,8 +202,8 @@ void yolov5_onnx_demo() {
 				}
 			}
 			frame_num += 1;
-			imwrite("./TEST_01/" + to_string(frame_num) + "_mask.png", mask);
-			imwrite("./TEST_01/" + to_string(frame_num) + "_seg.png", seg_result);
+			imwrite("./TEST_19/" + to_string(frame_num) + "_mask.png", mask);
+			imwrite("./TEST_19/" + to_string(frame_num) + "_seg.png", seg_result);
 			//cv::imshow("例子3", mask);
 			//if (cv::waitKey(33) >= 0)
 			//	break;
@@ -226,8 +226,9 @@ void yolov5_onnx_demo() {
 	//	Rect box = boxes[idx];
 	//	rectangle(src, box, Scalar(140, 199, 0), 4, 8, 0);
 	//}
-	float fps = getTickFrequency() / (getTickCount() - start);
+	//float fps = getTickFrequency() / (getTickCount() - start);
 	float time = (getTickCount() - start) / getTickFrequency();
+	float fps = (float)frame_num / time;
 
 	ostringstream ss;
 	ss << "FPS : " << fps << " segmentation time: " << time * 1000 << " ms";
