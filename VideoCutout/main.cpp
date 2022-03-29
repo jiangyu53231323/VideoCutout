@@ -75,6 +75,8 @@ void yolov5_onnx_demo() {
 	{
 		mkdir(folderPath.c_str());   // 返回 0 表示创建成功，-1 表示失败
 	}
+	float img_mean[3] = { 0.485, 0.456, 0.406 };  // RGB顺序
+	float img_std[3] = { 0.229, 0.224, 0.225 };
 
 	// 创建IE插件, 查询支持硬件设备
 	Core ie;
@@ -146,6 +148,7 @@ void yolov5_onnx_demo() {
 			for (size_t row = 0; row < h; row++) {
 				for (size_t col = 0; col < w; col++) {
 					for (size_t ch = 0; ch < num_channels; ch++) {
+						//data[image_size * ch + row * w + col] = (float(blob_image.at<Vec3b>(row, col)[ch]) / 255.0 - img_mean[ch]) / img_std[ch];
 						data[image_size * ch + row * w + col] = float(blob_image.at<Vec3b>(row, col)[ch]) / 255.0;
 					}
 				}
@@ -156,7 +159,7 @@ void yolov5_onnx_demo() {
 
 			//int mask[56][56];
 			//int mask[448][448];
-			Mat mask = Mat::zeros(448, 448, CV_8UC1);
+			Mat mask = Mat::zeros(288, 480, CV_8UC1);
 			Mat seg_result = blob_image.clone();
 			for (auto& item : output_info) {
 				auto output_name = item.first;
@@ -178,12 +181,17 @@ void yolov5_onnx_demo() {
 				int side_square = side_h * side_w;
 				int side_data_square = side_square * side_data;
 				int side_data_w = side_w * side_data;
-				for (int i = 0; i < side_square; ++i) {
-					for (int c = 0; c < out_c - 1; c++) {
-						int row = i / side_h;
-						int col = i % side_h;
-						int background_index = c * side_data_square + row * side_data_w + col * side_data;
+				for (int i = 0; i < side_data_square; ++i) {
+					for (int c = 0; c < 1; c++) {
+						int row = i / 480;
+						int col = i % 480;
+						int background_index = 0 * side_data_square + row * side_data_w + col * side_data;
 						int object_index = (c + 1) * side_data_square + row * side_data_w + col * side_data;
+
+						//float result_s = output_blob[object_index];
+						//float conf = sigmoid_function(output_blob[object_index]);
+						//std::printf("back: %d\n", background_index);
+						//std::printf("object: %d\n", object_index);
 
 						// 人像判断
 						if (output_blob[object_index] > output_blob[background_index]) {
