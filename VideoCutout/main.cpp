@@ -75,8 +75,10 @@ void yolov5_onnx_demo() {
 	{
 		mkdir(folderPath.c_str());   // 返回 0 表示创建成功，-1 表示失败
 	}
-	float img_mean[3] = { 0.485, 0.456, 0.406 };  // RGB顺序
-	float img_std[3] = { 0.229, 0.224, 0.225 };
+	//float img_mean[3] = { 0.485, 0.456, 0.406 };  // RGB顺序
+	//float img_std[3] = { 0.229, 0.224, 0.225 };
+	float img_mean[3] = { 0.406, 0.456, 0.485 };  // BGR顺序
+	float img_std[3] = { 0.225, 0.224, 0.229 };
 
 	// 创建IE插件, 查询支持硬件设备
 	Core ie;
@@ -148,8 +150,8 @@ void yolov5_onnx_demo() {
 			for (size_t row = 0; row < h; row++) {
 				for (size_t col = 0; col < w; col++) {
 					for (size_t ch = 0; ch < num_channels; ch++) {
-						//data[image_size * ch + row * w + col] = (float(blob_image.at<Vec3b>(row, col)[ch]) / 255.0 - img_mean[ch]) / img_std[ch];
-						data[image_size * ch + row * w + col] = float(blob_image.at<Vec3b>(row, col)[ch]) / 255.0;
+						data[image_size * ch + row * w + col] = (float(blob_image.at<Vec3b>(row, col)[ch]) / 255.0 - img_mean[ch]) / img_std[ch];
+						//data[image_size * ch + row * w + col] = float(blob_image.at<Vec3b>(row, col)[ch]) / 255.0;
 					}
 				}
 			}
@@ -161,6 +163,7 @@ void yolov5_onnx_demo() {
 			//int mask[448][448];
 			Mat mask = Mat::zeros(288, 480, CV_8UC1);
 			Mat seg_result = blob_image.clone();
+			cvtColor(seg_result, seg_result, COLOR_RGB2BGR);
 			for (auto& item : output_info) {
 				auto output_name = item.first;
 				//printf("output_name : %s \n", output_name.c_str());
