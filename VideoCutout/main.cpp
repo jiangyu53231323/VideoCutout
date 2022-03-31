@@ -88,7 +88,7 @@ void yolov5_onnx_demo() {
 	}
 
 	//  加载检测模型
-	auto network = ie.ReadNetwork("E:/Project/cpp_project/VideoCutout/VideoCutout/deeplab_mobilenet.xml", "E:/Project/cpp_project/VideoCutout/VideoCutout/deeplab_mobilenet.bin");
+	auto network = ie.ReadNetwork("./deeplab_mobilenet.xml", "./deeplab_mobilenet.bin");
 	// auto network = ie.ReadNetwork("D:/python/yolov5/yolov5s.onnx");
 
 	// 请求网络输入与输出信息
