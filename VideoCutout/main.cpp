@@ -57,13 +57,14 @@ float sigmoid_function(float a)
 }
 
 void face_detection_demo();
-void yolov5_onnx_demo();
 void object_segmentation();
+
 int main(int argc, char** argv) {
-	yolov5_onnx_demo();
+	object_segmentation();
+
 }
 
-void yolov5_onnx_demo() {
+void object_segmentation() {
 	//Mat src = imread("E:/Project/cpp_project/VideoCutout/VideoCutout/000000000552.jpg");
 	//int image_height = src.rows;
 	//int image_width = src.cols;
@@ -358,9 +359,6 @@ void face_detection_demo() {
 	return;
 }
 
-void object_segmentation() {
-
-}
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
 // 调试程序: F5 或调试 >“开始调试”菜单
