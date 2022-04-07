@@ -1,0 +1,2351 @@
+<?xml version="1.0" ?>
+<mapping>
+	<map>
+		<framework name="Constant_184" out_port_id="922"/>
+		<IR name="Constant_184" out_port_id="0" id="218"/>
+	</map>
+	<map>
+		<framework name="Constant_108" out_port_id="828"/>
+		<IR name="Constant_108" out_port_id="0" id="93"/>
+	</map>
+	<map>
+		<framework name="Constant_421" out_port_id="1213"/>
+		<IR name="Constant_421" out_port_id="0" id="401"/>
+	</map>
+	<map>
+		<framework name="Constant_673" out_port_id="1519"/>
+		<IR name="Constant_673" out_port_id="0" id="606"/>
+	</map>
+	<map>
+		<framework name="Constant_251" out_port_id="1007"/>
+		<IR name="Constant_251" out_port_id="0" id="161"/>
+	</map>
+	<map>
+		<framework name="Shape_803" out_port_id="1649"/>
+		<IR name="Shape_803" out_port_id="1" id="800"/>
+	</map>
+	<map>
+		<framework name="Constant_96" out_port_id="816"/>
+		<IR name="Constant_9651243" out_port_id="0" id="78"/>
+	</map>
+	<map>
+		<framework name="Constant_143" out_port_id="872"/>
+		<IR name="Constant_14351393" out_port_id="0" id="168"/>
+	</map>
+	<map>
+		<framework name="Clip_294" out_port_id="1059"/>
+		<IR name="Clip_294" out_port_id="1" id="301"/>
+	</map>
+	<map>
+		<framework name="nncf_module.backbone.features.5.conv.6.weight" out_port_id="nncf_module.backbone.features.5.conv.6.weight"/>
+		<IR name="BatchNormalization_183/mean/Fused_Mul__copy" out_port_id="0" id="215"/>
+	</map>
+	<map>
+		<framework name="Constant_639" out_port_id="1485"/>
+		<IR name="Constant_639" out_port_id="0" id="128"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_213" out_port_id="960"/>
+		<IR name="FakeQuantize_213" out_port_id="5" id="244"/>
+	</map>
+	<map>
+		<framework name="Constant_252" out_port_id="1008"/>
+		<IR name="Constant_252" out_port_id="0" id="163"/>
+	</map>
+	<map>
+		<framework name="Constant_9" out_port_id="702"/>
+		<IR name="Constant_9" out_port_id="0" id="24"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_289" out_port_id="1054"/>
+		<IR name="FakeQuantize_289" out_port_id="5" id="297"/>
+	</map>
+	<map>
+		<framework name="Constant_32" out_port_id="734"/>
+		<IR name="Constant_32" out_port_id="0" id="18"/>
+	</map>
+	<map>
+		<framework name="Constant_384" out_port_id="1167"/>
+		<IR name="Constant_38450919" out_port_id="0" id="384"/>
+	</map>
+	<map>
+		<framework name="Constant_109" out_port_id="829"/>
+		<IR name="Constant_109" out_port_id="0" id="94"/>
+	</map>
+	<map>
+		<framework name="Constant_345" out_port_id="1119"/>
+		<IR name="Constant_34550943" out_port_id="0" id="348"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_145" out_port_id="874"/>
+		<IR name="FakeQuantize_145" out_port_id="5" id="185"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization_55" out_port_id="766"/>
+		<IR name="BatchNormalization_55/variance/Fused_Add_" out_port_id="2" id="53"/>
+	</map>
+	<map>
+		<framework name="Constant_749" out_port_id="1595"/>
+		<IR name="Constant_74951579" out_port_id="0" id="114"/>
+	</map>
+	<map>
+		<framework name="Constant_189" out_port_id="927"/>
+		<IR name="Constant_18950439" out_port_id="0" id="227"/>
+	</map>
+	<map>
+		<framework name="nncf_module.backbone.features.16.conv.6.weight" out_port_id="nncf_module.backbone.features.16.conv.6.weight"/>
+		<IR name="BatchNormalization_611/mean/Fused_Mul__copy" out_port_id="0" id="549"/>
+	</map>
+	<map>
+		<framework name="Constant_345" out_port_id="1119"/>
+		<IR name="Constant_345" out_port_id="0" id="350"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_773" out_port_id="1619"/>
+		<IR name="FakeQuantize_773" out_port_id="5" id="754"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization_555" out_port_id="1383"/>
+		<IR name="BatchNormalization_555/variance/Fused_Add_" out_port_id="2" id="506"/>
+	</map>
+	<map>
+		<framework name="Constant_492" out_port_id="1302"/>
+		<IR name="Constant_49251498" out_port_id="0" id="442"/>
+	</map>
+	<map>
+		<framework name="nncf_module.backbone.features.17.conv.0.weight" out_port_id="nncf_module.backbone.features.17.conv.0.weight"/>
+		<IR name="BatchNormalization_635/mean/Fused_Mul__copy" out_port_id="0" id="563"/>
+	</map>
+	<map>
+		<framework name="Constant_336" out_port_id="1110"/>
+		<IR name="Constant_33651522" out_port_id="0" id="321"/>
+	</map>
+	<map>
+		<framework name="Constant_287" out_port_id="1052"/>
+		<IR name="Constant_28750754" out_port_id="0" id="289"/>
+	</map>
+	<map>
+		<framework name="Constant_461" out_port_id="1262"/>
+		<IR name="Constant_461" out_port_id="0" id="436"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization_571" out_port_id="1399"/>
+		<IR name="BatchNormalization_571/variance/Fused_Add_" out_port_id="2" id="516"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_735" out_port_id="1581"/>
+		<IR name="FakeQuantize_735/mulpiply_by_scale" out_port_id="2" id="709"/>
+	</map>
+	<map>
+		<framework name="Constant_457" out_port_id="1258"/>
+		<IR name="Constant_45750865" out_port_id="0" id="430"/>
+	</map>
+	<map>
+		<framework name="Constant_136" out_port_id="865"/>
+		<IR name="Constant_136" out_port_id="0" id="174"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization_363" out_port_id="1146"/>
+		<IR name="BatchNormalization_363/variance/Fused_Add_" out_port_id="2" id="365"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_137" out_port_id="866"/>
+		<IR name="FakeQuantize_137" out_port_id="5" id="180"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization_747" out_port_id="1593"/>
+		<IR name="BatchNormalization_747/variance/Fused_Add_" out_port_id="2" id="111"/>
+	</map>
+	<map>
+		<framework name="nncf_module.backbone.features.8.conv.0.weight" out_port_id="nncf_module.backbone.features.8.conv.0.weight"/>
+		<IR name="BatchNormalization_283/mean/Fused_Mul__copy" out_port_id="0" id="293"/>
+	</map>
+	<map>
+		<framework name="Shape_812" out_port_id="1658"/>
+		<IR name="Shape_812" out_port_id="1" id="794"/>
+	</map>
+	<map>
+		<framework name="nncf_module.backbone.features.7.conv.0.weight" out_port_id="nncf_module.backbone.features.7.conv.0.weight"/>
+		<IR name="BatchNormalization_247/mean/Fused_Mul__copy" out_port_id="0" id="264"/>
+	</map>
+	<map>
+		<framework name="Constant_328" out_port_id="1102"/>
+		<IR name="Constant_328" out_port_id="0" id="325"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization_175" out_port_id="913"/>
+		<IR name="BatchNormalization_175/variance/Fused_Add_" out_port_id="2" id="212"/>
+	</map>
+	<map>
+		<framework name="nncf_module.backbone.features.6.conv.3.weight" out_port_id="nncf_module.backbone.features.6.conv.3.weight"/>
+		<IR name="BatchNormalization_215/mean/Fused_Mul__copy" out_port_id="0" id="245"/>
+	</map>
+	<map>
+		<framework name="GlobalAveragePool_695" out_port_id="1541"/>
+		<IR name="GlobalAveragePool_695/reduce" out_port_id="2" id="646"/>
+	</map>
+	<map>
+		<framework name="Clip_7" out_port_id="700"/>
+		<IR name="Clip_7" out_port_id="1" id="36"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_105" out_port_id="825"/>
+		<IR name="FakeQuantize_105" out_port_id="5" id="89"/>
+	</map>
+	<map>
+		<framework name="Constant_500" out_port_id="1310"/>
+		<IR name="Constant_500" out_port_id="0" id="472"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_186" out_port_id="924"/>
+		<IR name="FakeQuantize_186" out_port_id="5" id="222"/>
+	</map>
+	<map>
+		<framework name="Constant_576" out_port_id="1404"/>
+		<IR name="Constant_57651291" out_port_id="0" id="523"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_74" out_port_id="785"/>
+		<IR name="FakeQuantize_74" out_port_id="5" id="68"/>
+	</map>
+	<map>
+		<framework name="Constant_415" out_port_id="1207"/>
+		<IR name="Constant_41551543" out_port_id="0" id="144"/>
+	</map>
+	<map>
+		<framework name="Constant_617" out_port_id="1454"/>
+		<IR name="Constant_61751489" out_port_id="0" id="561"/>
+	</map>
+	<map>
+		<framework name="Constant_497" out_port_id="1307"/>
+		<IR name="Constant_49750787" out_port_id="0" id="465"/>
+	</map>
+	<map>
+		<framework name="Constant_692" out_port_id="1538"/>
+		<IR name="Constant_69251021" out_port_id="0" id="633"/>
+	</map>
+	<map>
+		<framework name="Constant_444" out_port_id="1245"/>
+		<IR name="Constant_44451108" out_port_id="0" id="413"/>
+	</map>
+	<map>
+		<framework name="Constant_443" out_port_id="1244"/>
+		<IR name="Constant_44351435" out_port_id="0" id="412"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_266" out_port_id="1022"/>
+		<IR name="FakeQuantize_266" out_port_id="5" id="281"/>
+	</map>
+	<map>
+		<framework name="nncf_module.backbone.features.13.conv.6.weight" out_port_id="nncf_module.backbone.features.13.conv.6.weight"/>
+		<IR name="BatchNormalization_495/mean/Fused_Mul__copy" out_port_id="0" id="461"/>
+	</map>
+	<map>
+		<framework name="Constant_608" out_port_id="1445"/>
+		<IR name="Constant_608" out_port_id="0" id="532"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization_411" out_port_id="1203"/>
+		<IR name="BatchNormalization_411/variance/Fused_Add_" out_port_id="2" id="394"/>
+	</map>
+	<map>
+		<framework name="Constant_149" out_port_id="878"/>
+		<IR name="Constant_14951315" out_port_id="0" id="190"/>
+	</map>
+	<map>
+		<framework name="Constant_104" out_port_id="824"/>
+		<IR name="Constant_104" out_port_id="0" id="71"/>
+	</map>
+	<map>
+		<framework name="Constant_607" out_port_id="1444"/>
+		<IR name="Constant_60751204" out_port_id="0" id="531"/>
+	</map>
+	<map>
+		<framework name="Conv_799" out_port_id="1645"/>
+		<IR name="Conv_799" out_port_id="2" id="788"/>
+	</map>
+	<map>
+		<framework name="Slice_816" out_port_id="1662"/>
+		<IR name="Slice_816" out_port_id="4" id="798"/>
+	</map>
+	<map>
+		<framework name="Constant_707" out_port_id="1553"/>
+		<IR name="Constant_707" out_port_id="0" id="661"/>
+	</map>
+	<map>
+		<framework name="Clip_30" out_port_id="732"/>
+		<IR name="Clip_30" out_port_id="1" id="41"/>
+	</map>
+	<map>
+		<framework name="Constant_60" out_port_id="771"/>
+		<IR name="Constant_6051417" out_port_id="0" id="13"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization_167" out_port_id="905"/>
+		<IR name="BatchNormalization_167/variance/Fused_Add_" out_port_id="2" id="207"/>
+	</map>
+	<map>
+		<framework name="nncf_module.backbone.features.12.conv.3.weight" out_port_id="nncf_module.backbone.features.12.conv.3.weight"/>
+		<IR name="BatchNormalization_447/mean/Fused_Mul__copy" out_port_id="0" id="421"/>
+	</map>
+	<map>
+		<framework name="Gather_714" out_port_id="1560"/>
+		<IR name="Gather_7141282" out_port_id="3" id="680"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization_263" out_port_id="1019"/>
+		<IR name="BatchNormalization_263/variance/Fused_Add_" out_port_id="2" id="276"/>
+	</map>
+	<map>
+		<framework name="Constant_335" out_port_id="1109"/>
+		<IR name="Constant_335" out_port_id="0" id="320"/>
+	</map>
+	<map>
+		<framework name="nncf_module.backbone.features.10.conv.0.weight" out_port_id="nncf_module.backbone.features.10.conv.0.weight"/>
+		<IR name="BatchNormalization_363/mean/Fused_Mul__copy" out_port_id="0" id="363"/>
+	</map>
+	<map>
+		<framework name="Constant_683" out_port_id="1529"/>
+		<IR name="Constant_68351507" out_port_id="0" id="618"/>
+	</map>
+	<map>
+		<framework name="Constant_577" out_port_id="1405"/>
+		<IR name="Constant_57751096" out_port_id="0" id="526"/>
+	</map>
+	<map>
+		<framework name="Constant_264" out_port_id="1020"/>
+		<IR name="Constant_264" out_port_id="0" id="279"/>
+	</map>
+	<map>
+		<framework name="Constant_523" out_port_id="1342"/>
+		<IR name="Constant_52351288" out_port_id="0" id="138"/>
+	</map>
+	<map>
+		<framework name="Constant_662" out_port_id="1508"/>
+		<IR name="Constant_66250904" out_port_id="0" id="591"/>
+	</map>
+	<map>
+		<framework name="Constant_807" out_port_id="1653"/>
+		<IR name="Constant_807" out_port_id="0" id="807"/>
+	</map>
+	<map>
+		<framework name="Constant_265" out_port_id="1021"/>
+		<IR name="Constant_265" out_port_id="0" id="278"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_498" out_port_id="1308"/>
+		<IR name="FakeQuantize_498" out_port_id="5" id="468"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_409" out_port_id="1201"/>
+		<IR name="FakeQuantize_409" out_port_id="5" id="391"/>
+	</map>
+	<map>
+		<framework name="Clip_530" out_port_id="1349"/>
+		<IR name="Clip_530" out_port_id="1" id="483"/>
+	</map>
+	<map>
+		<framework name="Constant_451" out_port_id="1252"/>
+		<IR name="Constant_45151357" out_port_id="0" id="408"/>
+	</map>
+	<map>
+		<framework name="Constant_457" out_port_id="1258"/>
+		<IR name="Constant_457" out_port_id="0" id="432"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization_331" out_port_id="1105"/>
+		<IR name="BatchNormalization_331/variance/Fused_Add_" out_port_id="2" id="335"/>
+	</map>
+	<map>
+		<framework name="Constant_184" out_port_id="922"/>
+		<IR name="Constant_18450640" out_port_id="0" id="220"/>
+	</map>
+	<map>
+		<framework name="Constant_750" out_port_id="1596"/>
+		<IR name="Constant_750" out_port_id="0" id="113"/>
+	</map>
+	<map>
+		<framework name="Constant_577" out_port_id="1405"/>
+		<IR name="Constant_577" out_port_id="0" id="524"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_694" out_port_id="1540"/>
+		<IR name="FakeQuantize_694" out_port_id="5" id="635"/>
+	</map>
+	<map>
+		<framework name="Constant_143" out_port_id="872"/>
+		<IR name="Constant_143" out_port_id="0" id="166"/>
+	</map>
+	<map>
+		<framework name="Constant_693" out_port_id="1539"/>
+		<IR name="Constant_693" out_port_id="0" id="632"/>
+	</map>
+	<map>
+		<framework name="Add_187" out_port_id="925"/>
+		<IR name="Add_187" out_port_id="2" id="223"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_221" out_port_id="968"/>
+		<IR name="FakeQuantize_221" out_port_id="5" id="249"/>
+	</map>
+	<map>
+		<framework name="Clip_482" out_port_id="1292"/>
+		<IR name="Clip_482" out_port_id="1" id="454"/>
+	</map>
+	<map>
+		<framework name="Constant_559" out_port_id="1387"/>
+		<IR name="Constant_55951432" out_port_id="0" id="500"/>
+	</map>
+	<map>
+		<framework name="nncf_module.backbone.features.7.conv.3.weight" out_port_id="nncf_module.backbone.features.7.conv.3.weight"/>
+		<IR name="BatchNormalization_255/mean/Fused_Mul__copy" out_port_id="0" id="269"/>
+	</map>
+	<map>
+		<framework name="Constant_792" out_port_id="1638"/>
+		<IR name="Constant_792" out_port_id="0" id="777"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_641" out_port_id="1487"/>
+		<IR name="FakeQuantize_641" out_port_id="5" id="567"/>
+	</map>
+	<map>
+		<framework name="Constant_567" out_port_id="1395"/>
+		<IR name="Constant_56750994" out_port_id="0" id="494"/>
+	</map>
+	<map>
+		<framework name="nncf_module.backbone.features.14.conv.3.weight" out_port_id="nncf_module.backbone.features.14.conv.3.weight"/>
+		<IR name="BatchNormalization_527/mean/Fused_Mul__copy" out_port_id="0" id="480"/>
+	</map>
+	<map>
+		<framework name="Concat_811" out_port_id="1657"/>
+		<IR name="Concat_811" out_port_id="2" id="811"/>
+	</map>
+	<map>
+		<framework name="Cast_817" out_port_id="1663"/>
+		<IR name="Concat_811" out_port_id="2" id="811"/>
+	</map>
+	<map>
+		<framework name="Constant_260" out_port_id="1016"/>
+		<IR name="Constant_260" out_port_id="0" id="156"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization_215" out_port_id="962"/>
+		<IR name="BatchNormalization_215/variance/Fused_Add_" out_port_id="2" id="247"/>
+	</map>
+	<map>
+		<framework name="Constant_416" out_port_id="1208"/>
+		<IR name="Constant_416" out_port_id="0" id="145"/>
+	</map>
+	<map>
+		<framework name="Resize_821" out_port_id="1667"/>
+		<IR name="1667" out_port_id="4" id="826"/>
+	</map>
+	<map>
+		<framework name="Constant_407" out_port_id="1199"/>
+		<IR name="Constant_407" out_port_id="0" id="150"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_382" out_port_id="1165"/>
+		<IR name="FakeQuantize_382" out_port_id="5" id="380"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization_535" out_port_id="1354"/>
+		<IR name="BatchNormalization_535/variance/Fused_Add_" out_port_id="2" id="487"/>
+	</map>
+	<map>
+		<framework name="Constant_72" out_port_id="783"/>
+		<IR name="Constant_72" out_port_id="0" id="64"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_533" out_port_id="1352"/>
+		<IR name="FakeQuantize_533" out_port_id="5" id="484"/>
+	</map>
+	<map>
+		<framework name="Constant_288" out_port_id="1053"/>
+		<IR name="Constant_28851048" out_port_id="0" id="291"/>
+	</map>
+	<map>
+		<framework name="Constant_484" out_port_id="1294"/>
+		<IR name="Constant_484" out_port_id="0" id="449"/>
+	</map>
+	<map>
+		<framework name="nncf_module.backbone.features.5.conv.0.weight" out_port_id="nncf_module.backbone.features.5.conv.0.weight"/>
+		<IR name="BatchNormalization_167/mean/Fused_Mul__copy" out_port_id="0" id="205"/>
+	</map>
+	<map>
+		<framework name="nncf_module.backbone.features.17.conv.3.weight" out_port_id="nncf_module.backbone.features.17.conv.3.weight"/>
+		<IR name="BatchNormalization_643/mean/Fused_Mul__copy" out_port_id="0" id="568"/>
+	</map>
+	<map>
+		<framework name="Constant_560" out_port_id="1388"/>
+		<IR name="Constant_56051384" out_port_id="0" id="502"/>
+	</map>
+	<map>
+		<framework name="nncf_module.backbone.features.1.conv.0.weight" out_port_id="nncf_module.backbone.features.1.conv.0.weight"/>
+		<IR name="BatchNormalization_27/mean/Fused_Mul__copy" out_port_id="0" id="38"/>
+	</map>
+	<map>
+		<framework name="Clip_606" out_port_id="1443"/>
+		<IR name="Clip_606" out_port_id="1" id="547"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_730" out_port_id="1576"/>
+		<IR name="FakeQuantize_730" out_port_id="5" id="702"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_493" out_port_id="1303"/>
+		<IR name="FakeQuantize_493" out_port_id="5" id="460"/>
+	</map>
+	<map>
+		<framework name="Constant_112" out_port_id="832"/>
+		<IR name="Constant_112" out_port_id="0" id="99"/>
+	</map>
+	<map>
+		<framework name="Clip_490" out_port_id="1300"/>
+		<IR name="Clip_490" out_port_id="1" id="459"/>
+	</map>
+	<map>
+		<framework name="Constant_172" out_port_id="910"/>
+		<IR name="Constant_17251072" out_port_id="0" id="202"/>
+	</map>
+	<map>
+		<framework name="Constant_103" out_port_id="823"/>
+		<IR name="Constant_103" out_port_id="0" id="72"/>
+	</map>
+	<map>
+		<framework name="Constant_739" out_port_id="1585"/>
+		<IR name="Constant_73951456" out_port_id="0" id="712"/>
+	</map>
+	<map>
+		<framework name="nncf_module.backbone.features.8.conv.3.weight" out_port_id="nncf_module.backbone.features.8.conv.3.weight"/>
+		<IR name="BatchNormalization_291/mean/Fused_Mul__copy" out_port_id="0" id="298"/>
+	</map>
+	<map>
+		<framework name="nncf_module.backbone.features.15.conv.3.weight" out_port_id="nncf_module.backbone.features.15.conv.3.weight"/>
+		<IR name="BatchNormalization_563/mean/Fused_Mul__copy" out_port_id="0" id="509"/>
+	</map>
+	<map>
+		<framework name="Constant_496" out_port_id="1306"/>
+		<IR name="Constant_49650415" out_port_id="0" id="466"/>
+	</map>
+	<map>
+		<framework name="Constant_367" out_port_id="1150"/>
+		<IR name="Constant_36750550" out_port_id="0" id="359"/>
+	</map>
+	<map>
+		<framework name="Constant_793" out_port_id="1639"/>
+		<IR name="Constant_79351090" out_port_id="0" id="780"/>
+	</map>
+	<map>
+		<framework name="nncf_module.backbone.features.0.0.weight" out_port_id="nncf_module.backbone.features.0.0.weight"/>
+		<IR name="BatchNormalization_4/mean/Fused_Mul__copy" out_port_id="0" id="33"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_61" out_port_id="772"/>
+		<IR name="FakeQuantize_61" out_port_id="5" id="55"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_502" out_port_id="1312"/>
+		<IR name="FakeQuantize_502" out_port_id="5" id="474"/>
+	</map>
+	<map>
+		<framework name="Constant_683" out_port_id="1529"/>
+		<IR name="Constant_683" out_port_id="0" id="620"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_69" out_port_id="780"/>
+		<IR name="FakeQuantize_69" out_port_id="5" id="60"/>
+	</map>
+	<map>
+		<framework name="Constant_452" out_port_id="1253"/>
+		<IR name="Constant_452" out_port_id="0" id="409"/>
+	</map>
+	<map>
+		<framework name="Constant_59" out_port_id="770"/>
+		<IR name="Constant_59" out_port_id="0" id="11"/>
+	</map>
+	<map>
+		<framework name="Constant_652" out_port_id="1498"/>
+		<IR name="Constant_65251000" out_port_id="0" id="578"/>
+	</map>
+	<map>
+		<framework name="Constant_483" out_port_id="1293"/>
+		<IR name="Constant_48351201" out_port_id="0" id="447"/>
+	</map>
+	<map>
+		<framework name="Constant_461" out_port_id="1262"/>
+		<IR name="Constant_46151309" out_port_id="0" id="438"/>
+	</map>
+	<map>
+		<framework name="Shape_709" out_port_id="1555"/>
+		<IR name="Shape_709" out_port_id="1" id="671"/>
+	</map>
+	<map>
+		<framework name="Constant_568" out_port_id="1396"/>
+		<IR name="Constant_56851120" out_port_id="0" id="497"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization_255" out_port_id="1011"/>
+		<IR name="BatchNormalization_255/variance/Fused_Add_" out_port_id="2" id="271"/>
+	</map>
+	<map>
+		<framework name="Constant_229" out_port_id="976"/>
+		<IR name="Constant_229" out_port_id="0" id="262"/>
+	</map>
+	<map>
+		<framework name="Constant_607" out_port_id="1444"/>
+		<IR name="Constant_607" out_port_id="0" id="529"/>
+	</map>
+	<map>
+		<framework name="Constant_32" out_port_id="734"/>
+		<IR name="Constant_3250844" out_port_id="0" id="20"/>
+	</map>
+	<map>
+		<framework name="Constant_328" out_port_id="1102"/>
+		<IR name="Constant_32851582" out_port_id="0" id="326"/>
+	</map>
+	<map>
+		<framework name="Constant_344" out_port_id="1118"/>
+		<IR name="Constant_34451153" out_port_id="0" id="349"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_741" out_port_id="1587"/>
+		<IR name="FakeQuantize_741" out_port_id="5" id="716"/>
+	</map>
+	<map>
+		<framework name="Constant_59" out_port_id="770"/>
+		<IR name="Constant_5951387" out_port_id="0" id="12"/>
+	</map>
+	<map>
+		<framework name="Constant_1" out_port_id="694"/>
+		<IR name="Constant_1" out_port_id="0" id="30"/>
+	</map>
+	<map>
+		<framework name="nncf_module.backbone.features.3.conv.6.weight" out_port_id="nncf_module.backbone.features.3.conv.6.weight"/>
+		<IR name="BatchNormalization_107/mean/Fused_Mul__copy" out_port_id="0" id="90"/>
+	</map>
+	<map>
+		<framework name="Constant_756" out_port_id="1602"/>
+		<IR name="Constant_756" out_port_id="0" id="730"/>
+	</map>
+	<map>
+		<framework name="Concat_767" out_port_id="1613"/>
+		<IR name="Concat_767" out_port_id="2" id="735"/>
+	</map>
+	<map>
+		<framework name="Constant_301" out_port_id="1066"/>
+		<IR name="Constant_30151039" out_port_id="0" id="309"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization_737" out_port_id="1583"/>
+		<IR name="BatchNormalization_737/variance/Fused_Add_" out_port_id="2" id="711"/>
+	</map>
+	<map>
+		<framework name="Constant_305" out_port_id="1070"/>
+		<IR name="Constant_30550316" out_port_id="0" id="313"/>
+	</map>
+	<map>
+		<framework name="Constant_259" out_port_id="1015"/>
+		<IR name="Constant_259" out_port_id="0" id="157"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_230" out_port_id="977"/>
+		<IR name="FakeQuantize_230" out_port_id="5" id="263"/>
+	</map>
+	<map>
+		<framework name="nncf_module.backbone.features.4.conv.0.weight" out_port_id="nncf_module.backbone.features.4.conv.0.weight"/>
+		<IR name="BatchNormalization_131/mean/Fused_Mul__copy" out_port_id="0" id="176"/>
+	</map>
+	<map>
+		<framework name="Constant_260" out_port_id="1016"/>
+		<IR name="Constant_26051486" out_port_id="0" id="158"/>
+	</map>
+	<map>
+		<framework name="Constant_211" out_port_id="958"/>
+		<IR name="Constant_21151402" out_port_id="0" id="236"/>
+	</map>
+	<map>
+		<framework name="Constant_416" out_port_id="1208"/>
+		<IR name="Constant_41651381" out_port_id="0" id="147"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_337" out_port_id="1111"/>
+		<IR name="FakeQuantize_337" out_port_id="5" id="337"/>
+	</map>
+	<map>
+		<framework name="nncf_module.backbone.features.8.conv.6.weight" out_port_id="nncf_module.backbone.features.8.conv.6.weight"/>
+		<IR name="BatchNormalization_299/mean/Fused_Mul__copy" out_port_id="0" id="303"/>
+	</map>
+	<map>
+		<framework name="Gather_754" out_port_id="1600"/>
+		<IR name="Gather_7541284" out_port_id="3" id="726"/>
+	</map>
+	<map>
+		<framework name="Constant_537" out_port_id="1356"/>
+		<IR name="Constant_537" out_port_id="0" id="489"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_649" out_port_id="1495"/>
+		<IR name="FakeQuantize_649" out_port_id="5" id="572"/>
+	</map>
+	<map>
+		<framework name="Clip_134" out_port_id="863"/>
+		<IR name="Clip_134" out_port_id="1" id="179"/>
+	</map>
+	<map>
+		<framework name="Constant_640" out_port_id="1486"/>
+		<IR name="Constant_64051162" out_port_id="0" id="130"/>
+	</map>
+	<map>
+		<framework name="Constant_305" out_port_id="1070"/>
+		<IR name="Constant_305" out_port_id="0" id="315"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization_495" out_port_id="1305"/>
+		<IR name="BatchNormalization_495/variance/Fused_Add_" out_port_id="2" id="463"/>
+	</map>
+	<map>
+		<framework name="Shape_712" out_port_id="1558"/>
+		<IR name="Shape_712" out_port_id="1" id="677"/>
+	</map>
+	<map>
+		<framework name="nncf_module.backbone.features.6.conv.6.weight" out_port_id="nncf_module.backbone.features.6.conv.6.weight"/>
+		<IR name="BatchNormalization_223/mean/Fused_Mul__copy" out_port_id="0" id="250"/>
+	</map>
+	<map>
+		<framework name="nncf_module.backbone.features.10.conv.6.weight" out_port_id="nncf_module.backbone.features.10.conv.6.weight"/>
+		<IR name="BatchNormalization_379/mean/Fused_Mul__copy" out_port_id="0" id="373"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_2" out_port_id="695"/>
+		<IR name="FakeQuantize_2" out_port_id="5" id="32"/>
+	</map>
+	<map>
+		<framework name="Clip_334" out_port_id="1108"/>
+		<IR name="Clip_334" out_port_id="1" id="336"/>
+	</map>
+	<map>
+		<framework name="Constant_648" out_port_id="1494"/>
+		<IR name="Constant_648" out_port_id="0" id="125"/>
+	</map>
+	<map>
+		<framework name="Add_111" out_port_id="831"/>
+		<IR name="Add_111" out_port_id="2" id="98"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization_527" out_port_id="1346"/>
+		<IR name="BatchNormalization_527/variance/Fused_Add_" out_port_id="2" id="482"/>
+	</map>
+	<map>
+		<framework name="nncf_module.backbone.features.9.conv.6.weight" out_port_id="nncf_module.backbone.features.9.conv.6.weight"/>
+		<IR name="BatchNormalization_339/mean/Fused_Mul__copy" out_port_id="0" id="338"/>
+	</map>
+	<map>
+		<framework name="Constant_180" out_port_id="918"/>
+		<IR name="Constant_180" out_port_id="0" id="198"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization_643" out_port_id="1489"/>
+		<IR name="BatchNormalization_643/variance/Fused_Add_" out_port_id="2" id="570"/>
+	</map>
+	<map>
+		<framework name="Constant_616" out_port_id="1453"/>
+		<IR name="Constant_61651129" out_port_id="0" id="558"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_173" out_port_id="911"/>
+		<IR name="FakeQuantize_173" out_port_id="5" id="209"/>
+	</map>
+	<map>
+		<framework name="Constant_296" out_port_id="1061"/>
+		<IR name="Constant_296" out_port_id="0" id="286"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization_323" out_port_id="1097"/>
+		<IR name="BatchNormalization_323/variance/Fused_Add_" out_port_id="2" id="330"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_342" out_port_id="1116"/>
+		<IR name="FakeQuantize_342" out_port_id="5" id="345"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_110" out_port_id="830"/>
+		<IR name="FakeQuantize_110" out_port_id="5" id="97"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization_147" out_port_id="876"/>
+		<IR name="BatchNormalization_147/variance/Fused_Add_" out_port_id="2" id="188"/>
+	</map>
+	<map>
+		<framework name="Resize_770" out_port_id="1616"/>
+		<IR name="Resize_770" out_port_id="4" id="749"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization_299" out_port_id="1064"/>
+		<IR name="BatchNormalization_299/variance/Fused_Add_" out_port_id="2" id="305"/>
+	</map>
+	<map>
+		<framework name="Constant_532" out_port_id="1351"/>
+		<IR name="Constant_532" out_port_id="0" id="134"/>
+	</map>
+	<map>
+		<framework name="Clip_258" out_port_id="1014"/>
+		<IR name="Clip_258" out_port_id="1" id="272"/>
+	</map>
+	<map>
+		<framework name="Constant_420" out_port_id="1212"/>
+		<IR name="Constant_420" out_port_id="0" id="402"/>
+	</map>
+	<map>
+		<framework name="nncf_module.backbone.features.16.conv.0.weight" out_port_id="nncf_module.backbone.features.16.conv.0.weight"/>
+		<IR name="BatchNormalization_595/mean/Fused_Mul__copy" out_port_id="0" id="539"/>
+	</map>
+	<map>
+		<framework name="Unsqueeze_715" out_port_id="1561"/>
+		<IR name="Unsqueeze_715/Unsqueeze" out_port_id="2" id="675"/>
+	</map>
+	<map>
+		<framework name="Constant_460" out_port_id="1261"/>
+		<IR name="Constant_46050532" out_port_id="0" id="435"/>
+	</map>
+	<map>
+		<framework name="Constant_296" out_port_id="1061"/>
+		<IR name="Constant_29651516" out_port_id="0" id="284"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_788" out_port_id="1634"/>
+		<IR name="FakeQuantize_788/mulpiply_by_scale" out_port_id="2" id="774"/>
+	</map>
+	<map>
+		<framework name="Constant_36" out_port_id="738"/>
+		<IR name="Constant_36" out_port_id="0" id="46"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization_291" out_port_id="1056"/>
+		<IR name="BatchNormalization_291/variance/Fused_Add_" out_port_id="2" id="300"/>
+	</map>
+	<map>
+		<framework name="Constant_663" out_port_id="1509"/>
+		<IR name="Constant_66351333" out_port_id="0" id="590"/>
+	</map>
+	<map>
+		<framework name="Constant_224" out_port_id="971"/>
+		<IR name="Constant_224" out_port_id="0" id="255"/>
+	</map>
+	<map>
+		<framework name="Constant_341" out_port_id="1115"/>
+		<IR name="Constant_34151180" out_port_id="0" id="344"/>
+	</map>
+	<map>
+		<framework name="Clip_178" out_port_id="916"/>
+		<IR name="Clip_178" out_port_id="1" id="213"/>
+	</map>
+	<map>
+		<framework name="Constant_149" out_port_id="878"/>
+		<IR name="Constant_149" out_port_id="0" id="192"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization_563" out_port_id="1391"/>
+		<IR name="BatchNormalization_563/variance/Fused_Add_" out_port_id="2" id="511"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization_63" out_port_id="774"/>
+		<IR name="BatchNormalization_63/variance/Fused_Add_" out_port_id="2" id="58"/>
+	</map>
+	<map>
+		<framework name="Constant_524" out_port_id="1343"/>
+		<IR name="Constant_524" out_port_id="0" id="141"/>
+	</map>
+	<map>
+		<framework name="Clip_286" out_port_id="1051"/>
+		<IR name="Clip_286" out_port_id="1" id="296"/>
+	</map>
+	<map>
+		<framework name="Constant_710" out_port_id="1556"/>
+		<IR name="Constant_710" out_port_id="0" id="672"/>
+	</map>
+	<map>
+		<framework name="Constant_639" out_port_id="1485"/>
+		<IR name="Constant_63950868" out_port_id="0" id="127"/>
+	</map>
+	<map>
+		<framework name="nncf_module.backbone.features.10.conv.3.weight" out_port_id="nncf_module.backbone.features.10.conv.3.weight"/>
+		<IR name="BatchNormalization_371/mean/Fused_Mul__copy" out_port_id="0" id="368"/>
+	</map>
+	<map>
+		<framework name="nncf_module.backbone.features.3.conv.3.weight" out_port_id="nncf_module.backbone.features.3.conv.3.weight"/>
+		<IR name="BatchNormalization_99/mean/Fused_Mul__copy" out_port_id="0" id="85"/>
+	</map>
+	<map>
+		<framework name="Clip_374" out_port_id="1157"/>
+		<IR name="Clip_374" out_port_id="1" id="371"/>
+	</map>
+	<map>
+		<framework name="nncf_module.backbone.features.5.conv.3.weight" out_port_id="nncf_module.backbone.features.5.conv.3.weight"/>
+		<IR name="BatchNormalization_175/mean/Fused_Mul__copy" out_port_id="0" id="210"/>
+	</map>
+	<map>
+		<framework name="Constant_229" out_port_id="976"/>
+		<IR name="Constant_22951249" out_port_id="0" id="260"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization_283" out_port_id="1048"/>
+		<IR name="BatchNormalization_283/variance/Fused_Add_" out_port_id="2" id="295"/>
+	</map>
+	<map>
+		<framework name="Constant_452" out_port_id="1253"/>
+		<IR name="Constant_45251174" out_port_id="0" id="407"/>
+	</map>
+	<map>
+		<framework name="Constant_523" out_port_id="1342"/>
+		<IR name="Constant_523" out_port_id="0" id="139"/>
+	</map>
+	<map>
+		<framework name="Resize_727" out_port_id="1573"/>
+		<IR name="Resize_727" out_port_id="4" id="697"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization_595" out_port_id="1432"/>
+		<IR name="BatchNormalization_595/variance/Fused_Add_" out_port_id="2" id="541"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_569" out_port_id="1397"/>
+		<IR name="FakeQuantize_569" out_port_id="5" id="513"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization_379" out_port_id="1162"/>
+		<IR name="BatchNormalization_379/variance/Fused_Add_" out_port_id="2" id="375"/>
+	</map>
+	<map>
+		<framework name="Constant_772" out_port_id="1618"/>
+		<IR name="Constant_77250805" out_port_id="0" id="751"/>
+	</map>
+	<map>
+		<framework name="Constant_706" out_port_id="1552"/>
+		<IR name="Constant_70651261" out_port_id="0" id="660"/>
+	</map>
+	<map>
+		<framework name="Constant_300" out_port_id="1065"/>
+		<IR name="Constant_30051063" out_port_id="0" id="308"/>
+	</map>
+	<map>
+		<framework name="Constant_648" out_port_id="1494"/>
+		<IR name="Constant_64850880" out_port_id="0" id="123"/>
+	</map>
+	<map>
+		<framework name="Constant_673" out_port_id="1519"/>
+		<IR name="Constant_67351366" out_port_id="0" id="604"/>
+	</map>
+	<map>
+		<framework name="Constant_375" out_port_id="1158"/>
+		<IR name="Constant_37550589" out_port_id="0" id="355"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_150" out_port_id="879"/>
+		<IR name="FakeQuantize_150" out_port_id="5" id="193"/>
+	</map>
+	<map>
+		<framework name="Add_615" out_port_id="1452"/>
+		<IR name="Add_615" out_port_id="2" id="557"/>
+	</map>
+	<map>
+		<framework name="Constant_112" out_port_id="832"/>
+		<IR name="Constant_11251027" out_port_id="0" id="101"/>
+	</map>
+	<map>
+		<framework name="Constant_497" out_port_id="1307"/>
+		<IR name="Constant_497" out_port_id="0" id="467"/>
+	</map>
+	<map>
+		<framework name="Constant_103" out_port_id="823"/>
+		<IR name="Constant_10351471" out_port_id="0" id="70"/>
+	</map>
+	<map>
+		<framework name="Gather_757" out_port_id="1603"/>
+		<IR name="Gather_7571280" out_port_id="3" id="732"/>
+	</map>
+	<map>
+		<framework name="Constant_211" out_port_id="958"/>
+		<IR name="Constant_211" out_port_id="0" id="235"/>
+	</map>
+	<map>
+		<framework name="Constant_408" out_port_id="1200"/>
+		<IR name="Constant_40850697" out_port_id="0" id="151"/>
+	</map>
+	<map>
+		<framework name="Constant_693" out_port_id="1539"/>
+		<IR name="Constant_69350559" out_port_id="0" id="634"/>
+	</map>
+	<map>
+		<framework name="Constant_696" out_port_id="1542"/>
+		<IR name="Constant_696" out_port_id="0" id="649"/>
+	</map>
+	<map>
+		<framework name="Constant_31" out_port_id="733"/>
+		<IR name="Constant_31" out_port_id="0" id="17"/>
+	</map>
+	<map>
+		<framework name="Constant_188" out_port_id="926"/>
+		<IR name="Constant_188" out_port_id="0" id="226"/>
+	</map>
+	<map>
+		<framework name="Constant_407" out_port_id="1199"/>
+		<IR name="Constant_40750997" out_port_id="0" id="149"/>
+	</map>
+	<map>
+		<framework name="Add_575" out_port_id="1403"/>
+		<IR name="Add_575" out_port_id="2" id="522"/>
+	</map>
+	<map>
+		<framework name="nncf_module.backbone.features.2.conv.0.weight" out_port_id="nncf_module.backbone.features.2.conv.0.weight"/>
+		<IR name="BatchNormalization_55/mean/Fused_Mul__copy" out_port_id="0" id="51"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_226" out_port_id="973"/>
+		<IR name="FakeQuantize_226" out_port_id="5" id="257"/>
+	</map>
+	<map>
+		<framework name="Constant_782" out_port_id="1628"/>
+		<IR name="Constant_782" out_port_id="0" id="766"/>
+	</map>
+	<map>
+		<framework name="Constant_96" out_port_id="816"/>
+		<IR name="Constant_96" out_port_id="0" id="77"/>
+	</map>
+	<map>
+		<framework name="Constant_212" out_port_id="959"/>
+		<IR name="Constant_21251438" out_port_id="0" id="238"/>
+	</map>
+	<map>
+		<framework name="Constant_740" out_port_id="1586"/>
+		<IR name="Constant_740" out_port_id="0" id="715"/>
+	</map>
+	<map>
+		<framework name="Constant_740" out_port_id="1586"/>
+		<IR name="Constant_74050718" out_port_id="0" id="713"/>
+	</map>
+	<map>
+		<framework name="Clip_522" out_port_id="1341"/>
+		<IR name="Clip_522" out_port_id="1" id="478"/>
+	</map>
+	<map>
+		<framework name="Gather_808" out_port_id="1654"/>
+		<IR name="Gather_8081278" out_port_id="3" id="809"/>
+	</map>
+	<map>
+		<framework name="Constant_252" out_port_id="1008"/>
+		<IR name="Constant_25251450" out_port_id="0" id="162"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_751" out_port_id="1597"/>
+		<IR name="FakeQuantize_751" out_port_id="5" id="116"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization_651" out_port_id="1497"/>
+		<IR name="BatchNormalization_651/variance/Fused_Add_" out_port_id="2" id="575"/>
+	</map>
+	<map>
+		<framework name="Constant_251" out_port_id="1007"/>
+		<IR name="Constant_25151360" out_port_id="0" id="160"/>
+	</map>
+	<map>
+		<framework name="Add_227" out_port_id="974"/>
+		<IR name="Add_227" out_port_id="2" id="258"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_453" out_port_id="1254"/>
+		<IR name="FakeQuantize_453" out_port_id="5" id="425"/>
+	</map>
+	<map>
+		<framework name="Constant_188" out_port_id="926"/>
+		<IR name="Constant_18850841" out_port_id="0" id="224"/>
+	</map>
+	<map>
+		<framework name="Clip_450" out_port_id="1251"/>
+		<IR name="Clip_450" out_port_id="1" id="424"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_745" out_port_id="1591"/>
+		<IR name="FakeQuantize_745/mulpiply_by_scale" out_port_id="2" id="109"/>
+	</map>
+	<map>
+		<framework name="Constant_37" out_port_id="739"/>
+		<IR name="Constant_37" out_port_id="0" id="49"/>
+	</map>
+	<map>
+		<framework name="Clip_102" out_port_id="822"/>
+		<IR name="Clip_102" out_port_id="1" id="88"/>
+	</map>
+	<map>
+		<framework name="Constant_376" out_port_id="1159"/>
+		<IR name="Constant_376" out_port_id="0" id="354"/>
+	</map>
+	<map>
+		<framework name="nncf_module.backbone.features.14.conv.0.weight" out_port_id="nncf_module.backbone.features.14.conv.0.weight"/>
+		<IR name="BatchNormalization_519/mean/Fused_Mul__copy" out_port_id="0" id="475"/>
+	</map>
+	<map>
+		<framework name="Constant_647" out_port_id="1493"/>
+		<IR name="Constant_647" out_port_id="0" id="122"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization_419" out_port_id="1211"/>
+		<IR name="BatchNormalization_419/variance/Fused_Add_" out_port_id="2" id="399"/>
+	</map>
+	<map>
+		<framework name="Constant_368" out_port_id="1151"/>
+		<IR name="Constant_36851531" out_port_id="0" id="360"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_784" out_port_id="1630"/>
+		<IR name="FakeQuantize_784" out_port_id="5" id="768"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization_35" out_port_id="737"/>
+		<IR name="BatchNormalization_35/variance/Fused_Add_" out_port_id="2" id="45"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_678" out_port_id="1524"/>
+		<IR name="FakeQuantize_678/mulpiply_by_scale" out_port_id="2" id="614"/>
+	</map>
+	<map>
+		<framework name="Constant_456" out_port_id="1257"/>
+		<IR name="Constant_45651312" out_port_id="0" id="431"/>
+	</map>
+	<map>
+		<framework name="Constant_1" out_port_id="694"/>
+		<IR name="Constant_150886" out_port_id="0" id="28"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_778" out_port_id="1624"/>
+		<IR name="FakeQuantize_778/mulpiply_by_scale" out_port_id="2" id="761"/>
+	</map>
+	<map>
+		<framework name="Shape_755" out_port_id="1601"/>
+		<IR name="Shape_755" out_port_id="1" id="729"/>
+	</map>
+	<map>
+		<framework name="Constant_801" out_port_id="1647"/>
+		<IR name="Constant_801" out_port_id="0" id="790"/>
+	</map>
+	<map>
+		<framework name="Constant_484" out_port_id="1294"/>
+		<IR name="Constant_48451537" out_port_id="0" id="448"/>
+	</map>
+	<map>
+		<framework name="Add_343" out_port_id="1117"/>
+		<IR name="Add_343" out_port_id="2" id="346"/>
+	</map>
+	<map>
+		<framework name="Constant_144" out_port_id="873"/>
+		<IR name="Constant_144" out_port_id="0" id="167"/>
+	</map>
+	<map>
+		<framework name="Constant_616" out_port_id="1453"/>
+		<IR name="Constant_616" out_port_id="0" id="560"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization_91" out_port_id="811"/>
+		<IR name="BatchNormalization_91/variance/Fused_Add_" out_port_id="2" id="82"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_422" out_port_id="1214"/>
+		<IR name="FakeQuantize_422" out_port_id="5" id="404"/>
+	</map>
+	<map>
+		<framework name="Constant_750" out_port_id="1596"/>
+		<IR name="Constant_75050925" out_port_id="0" id="115"/>
+	</map>
+	<map>
+		<framework name="Constant_536" out_port_id="1355"/>
+		<IR name="Constant_536" out_port_id="0" id="490"/>
+	</map>
+	<map>
+		<framework name="Clip_406" out_port_id="1198"/>
+		<IR name="Clip_406" out_port_id="1" id="390"/>
+	</map>
+	<map>
+		<framework name="Clip_566" out_port_id="1394"/>
+		<IR name="Clip_566" out_port_id="1" id="512"/>
+	</map>
+	<map>
+		<framework name="Constant_37" out_port_id="739"/>
+		<IR name="Constant_3750907" out_port_id="0" id="47"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization_139" out_port_id="868"/>
+		<IR name="BatchNormalization_139/variance/Fused_Add_" out_port_id="2" id="183"/>
+	</map>
+	<map>
+		<framework name="nncf_module.backbone.features.2.conv.3.weight" out_port_id="nncf_module.backbone.features.2.conv.3.weight"/>
+		<IR name="BatchNormalization_63/mean/Fused_Mul__copy" out_port_id="0" id="56"/>
+	</map>
+	<map>
+		<framework name="Constant_408" out_port_id="1200"/>
+		<IR name="Constant_408" out_port_id="0" id="152"/>
+	</map>
+	<map>
+		<framework name="Constant_380" out_port_id="1163"/>
+		<IR name="Constant_380" out_port_id="0" id="378"/>
+	</map>
+	<map>
+		<framework name="Constant_612" out_port_id="1449"/>
+		<IR name="Constant_61251186" out_port_id="0" id="554"/>
+	</map>
+	<map>
+		<framework name="nncf_module.backbone.features.3.conv.0.weight" out_port_id="nncf_module.backbone.features.3.conv.0.weight"/>
+		<IR name="BatchNormalization_91/mean/Fused_Mul__copy" out_port_id="0" id="80"/>
+	</map>
+	<map>
+		<framework name="Constant_180" out_port_id="918"/>
+		<IR name="Constant_18051405" out_port_id="0" id="196"/>
+	</map>
+	<map>
+		<framework name="Constant_456" out_port_id="1257"/>
+		<IR name="Constant_456" out_port_id="0" id="429"/>
+	</map>
+	<map>
+		<framework name="Gather_805" out_port_id="1651"/>
+		<IR name="Gather_8051286" out_port_id="3" id="803"/>
+	</map>
+	<map>
+		<framework name="Constant_135" out_port_id="864"/>
+		<IR name="Constant_135" out_port_id="0" id="172"/>
+	</map>
+	<map>
+		<framework name="Concat_774" out_port_id="1620"/>
+		<IR name="Concat_774" out_port_id="2" id="755"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_688" out_port_id="1534"/>
+		<IR name="FakeQuantize_688/mulpiply_by_scale" out_port_id="2" id="628"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_10" out_port_id="703"/>
+		<IR name="FakeQuantize_10" out_port_id="5" id="37"/>
+	</map>
+	<map>
+		<framework name="nncf_module.backbone.features.1.conv.3.weight" out_port_id="nncf_module.backbone.features.1.conv.3.weight"/>
+		<IR name="BatchNormalization_35/mean/Fused_Mul__copy" out_port_id="0" id="43"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_609" out_port_id="1446"/>
+		<IR name="FakeQuantize_609" out_port_id="5" id="548"/>
+	</map>
+	<map>
+		<framework name="nncf_module.backbone.features.4.conv.3.weight" out_port_id="nncf_module.backbone.features.4.conv.3.weight"/>
+		<IR name="BatchNormalization_139/mean/Fused_Mul__copy" out_port_id="0" id="181"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_261" out_port_id="1017"/>
+		<IR name="FakeQuantize_261" out_port_id="5" id="273"/>
+	</map>
+	<map>
+		<framework name="Constant_264" out_port_id="1020"/>
+		<IR name="Constant_26451468" out_port_id="0" id="277"/>
+	</map>
+	<map>
+		<framework name="Constant_491" out_port_id="1301"/>
+		<IR name="Constant_491" out_port_id="0" id="441"/>
+	</map>
+	<map>
+		<framework name="Constant_682" out_port_id="1528"/>
+		<IR name="Constant_68251588" out_port_id="0" id="617"/>
+	</map>
+	<map>
+		<framework name="Constant_113" out_port_id="833"/>
+		<IR name="Constant_11351540" out_port_id="0" id="100"/>
+	</map>
+	<map>
+		<framework name="Constant_225" out_port_id="972"/>
+		<IR name="Constant_225" out_port_id="0" id="256"/>
+	</map>
+	<map>
+		<framework name="Clip_94" out_port_id="814"/>
+		<IR name="Clip_94" out_port_id="1" id="83"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_386" out_port_id="1169"/>
+		<IR name="FakeQuantize_386" out_port_id="5" id="386"/>
+	</map>
+	<map>
+		<framework name="Slice_722" out_port_id="1568"/>
+		<IR name="Slice_722" out_port_id="4" id="669"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization_670" out_port_id="1516"/>
+		<IR name="BatchNormalization_670/variance/Fused_Add_" out_port_id="2" id="602"/>
+	</map>
+	<map>
+		<framework name="Constant_496" out_port_id="1306"/>
+		<IR name="Constant_496" out_port_id="0" id="464"/>
+	</map>
+	<map>
+		<framework name="Constant_792" out_port_id="1638"/>
+		<IR name="Constant_79250772" out_port_id="0" id="779"/>
+	</map>
+	<map>
+		<framework name="Constant_460" out_port_id="1261"/>
+		<IR name="Constant_460" out_port_id="0" id="437"/>
+	</map>
+	<map>
+		<framework name="Constant_536" out_port_id="1355"/>
+		<IR name="Constant_53651138" out_port_id="0" id="488"/>
+	</map>
+	<map>
+		<framework name="Constant_344" out_port_id="1118"/>
+		<IR name="Constant_344" out_port_id="0" id="347"/>
+	</map>
+	<map>
+		<framework name="Constant_567" out_port_id="1395"/>
+		<IR name="Constant_567" out_port_id="0" id="496"/>
+	</map>
+	<map>
+		<framework name="Unsqueeze_758" out_port_id="1604"/>
+		<IR name="Unsqueeze_758/Unsqueeze" out_port_id="2" id="727"/>
+	</map>
+	<map>
+		<framework name="Clip_142" out_port_id="871"/>
+		<IR name="Clip_142" out_port_id="1" id="184"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization_339" out_port_id="1113"/>
+		<IR name="BatchNormalization_339/variance/Fused_Add_" out_port_id="2" id="340"/>
+	</map>
+	<map>
+		<framework name="Unsqueeze_810" out_port_id="1656"/>
+		<IR name="Unsqueeze_810/Unsqueeze" out_port_id="2" id="810"/>
+	</map>
+	<map>
+		<framework name="Constant_381" out_port_id="1164"/>
+		<IR name="Constant_381" out_port_id="0" id="379"/>
+	</map>
+	<map>
+		<framework name="Constant_697" out_port_id="1543"/>
+		<IR name="Constant_697" out_port_id="0" id="650"/>
+	</map>
+	<map>
+		<framework name="Clip_210" out_port_id="957"/>
+		<IR name="Clip_210" out_port_id="1" id="243"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization_99" out_port_id="819"/>
+		<IR name="BatchNormalization_99/variance/Fused_Add_" out_port_id="2" id="87"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_253" out_port_id="1009"/>
+		<IR name="FakeQuantize_253" out_port_id="5" id="268"/>
+	</map>
+	<map>
+		<framework name="Constant_800" out_port_id="1646"/>
+		<IR name="Constant_800" out_port_id="0" id="791"/>
+	</map>
+	<map>
+		<framework name="Constant_532" out_port_id="1351"/>
+		<IR name="Constant_53251300" out_port_id="0" id="136"/>
+	</map>
+	<map>
+		<framework name="Constant_335" out_port_id="1109"/>
+		<IR name="Constant_33551414" out_port_id="0" id="318"/>
+	</map>
+	<map>
+		<framework name="Constant_672" out_port_id="1518"/>
+		<IR name="Constant_67250955" out_port_id="0" id="605"/>
+	</map>
+	<map>
+		<framework name="Constant_415" out_port_id="1207"/>
+		<IR name="Constant_415" out_port_id="0" id="146"/>
+	</map>
+	<map>
+		<framework name="Clip_442" out_port_id="1243"/>
+		<IR name="Clip_442" out_port_id="1" id="419"/>
+	</map>
+	<map>
+		<framework name="Constant_95" out_port_id="815"/>
+		<IR name="Constant_95" out_port_id="0" id="75"/>
+	</map>
+	<map>
+		<framework name="Constant_501" out_port_id="1311"/>
+		<IR name="Constant_501" out_port_id="0" id="473"/>
+	</map>
+	<map>
+		<framework name="nncf_module.backbone.features.9.conv.3.weight" out_port_id="nncf_module.backbone.features.9.conv.3.weight"/>
+		<IR name="BatchNormalization_331/mean/Fused_Mul__copy" out_port_id="0" id="333"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_458" out_port_id="1259"/>
+		<IR name="FakeQuantize_458" out_port_id="5" id="433"/>
+	</map>
+	<map>
+		<framework name="Constant_560" out_port_id="1388"/>
+		<IR name="Constant_560" out_port_id="0" id="501"/>
+	</map>
+	<map>
+		<framework name="Clip_366" out_port_id="1149"/>
+		<IR name="Clip_366" out_port_id="1" id="366"/>
+	</map>
+	<map>
+		<framework name="Constant_265" out_port_id="1021"/>
+		<IR name="Constant_26551216" out_port_id="0" id="280"/>
+	</map>
+	<map>
+		<framework name="Constant_804" out_port_id="1650"/>
+		<IR name="Constant_804" out_port_id="0" id="801"/>
+	</map>
+	<map>
+		<framework name="nncf_module.backbone.features.13.conv.3.weight" out_port_id="nncf_module.backbone.features.13.conv.3.weight"/>
+		<IR name="BatchNormalization_487/mean/Fused_Mul__copy" out_port_id="0" id="456"/>
+	</map>
+	<map>
+		<framework name="Shape_806" out_port_id="1652"/>
+		<IR name="Shape_806" out_port_id="1" id="806"/>
+	</map>
+	<map>
+		<framework name="Constant_375" out_port_id="1158"/>
+		<IR name="Constant_375" out_port_id="0" id="353"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_297" out_port_id="1062"/>
+		<IR name="FakeQuantize_297" out_port_id="5" id="302"/>
+	</map>
+	<map>
+		<framework name="Unsqueeze_759" out_port_id="1605"/>
+		<IR name="Unsqueeze_759/Unsqueeze" out_port_id="2" id="733"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_708" out_port_id="1554"/>
+		<IR name="FakeQuantize_708" out_port_id="5" id="664"/>
+	</map>
+	<map>
+		<framework name="Constant_287" out_port_id="1052"/>
+		<IR name="Constant_287" out_port_id="0" id="288"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization_183" out_port_id="921"/>
+		<IR name="BatchNormalization_183/variance/Fused_Add_" out_port_id="2" id="217"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_668" out_port_id="1514"/>
+		<IR name="FakeQuantize_668/mulpiply_by_scale" out_port_id="2" id="600"/>
+	</map>
+	<map>
+		<framework name="Constant_600" out_port_id="1437"/>
+		<IR name="Constant_600" out_port_id="0" id="537"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization_790" out_port_id="1636"/>
+		<IR name="BatchNormalization_790/variance/Fused_Add_" out_port_id="2" id="776"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_369" out_port_id="1152"/>
+		<IR name="FakeQuantize_369" out_port_id="5" id="367"/>
+	</map>
+	<map>
+		<framework name="Constant_568" out_port_id="1396"/>
+		<IR name="Constant_568" out_port_id="0" id="495"/>
+	</map>
+	<map>
+		<framework name="Constant_663" out_port_id="1509"/>
+		<IR name="Constant_663" out_port_id="0" id="592"/>
+	</map>
+	<map>
+		<framework name="Constant_782" out_port_id="1628"/>
+		<IR name="Constant_78250508" out_port_id="0" id="764"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_306" out_port_id="1071"/>
+		<IR name="FakeQuantize_306" out_port_id="5" id="316"/>
+	</map>
+	<map>
+		<framework name="Constant_341" out_port_id="1115"/>
+		<IR name="Constant_341" out_port_id="0" id="342"/>
+	</map>
+	<map>
+		<framework name="Constant_367" out_port_id="1150"/>
+		<IR name="Constant_367" out_port_id="0" id="358"/>
+	</map>
+	<map>
+		<framework name="Constant_729" out_port_id="1575"/>
+		<IR name="Constant_729" out_port_id="0" id="699"/>
+	</map>
+	<map>
+		<framework name="Constant_68" out_port_id="779"/>
+		<IR name="Constant_68" out_port_id="0" id="9"/>
+	</map>
+	<map>
+		<framework name="nncf_module.backbone.features.7.conv.6.weight" out_port_id="nncf_module.backbone.features.7.conv.6.weight"/>
+		<IR name="BatchNormalization_263/mean/Fused_Mul__copy" out_port_id="0" id="274"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_618" out_port_id="1455"/>
+		<IR name="FakeQuantize_618" out_port_id="5" id="562"/>
+	</map>
+	<map>
+		<framework name="Shape_761" out_port_id="1607"/>
+		<IR name="Shape_761" out_port_id="1" id="717"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization_780" out_port_id="1626"/>
+		<IR name="BatchNormalization_780/variance/Fused_Add_" out_port_id="2" id="763"/>
+	</map>
+	<map>
+		<framework name="Add_459" out_port_id="1260"/>
+		<IR name="Add_459" out_port_id="2" id="434"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization_660" out_port_id="1506"/>
+		<IR name="BatchNormalization_660/variance/Fused_Add_" out_port_id="2" id="588"/>
+	</map>
+	<map>
+		<framework name="Constant_380" out_port_id="1163"/>
+		<IR name="Constant_38051363" out_port_id="0" id="376"/>
+	</map>
+	<map>
+		<framework name="nncf_module.backbone.features.11.conv.3.weight" out_port_id="nncf_module.backbone.features.11.conv.3.weight"/>
+		<IR name="BatchNormalization_411/mean/Fused_Mul__copy" out_port_id="0" id="392"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization_107" out_port_id="827"/>
+		<IR name="BatchNormalization_107/variance/Fused_Add_" out_port_id="2" id="92"/>
+	</map>
+	<map>
+		<framework name="Clip_414" out_port_id="1206"/>
+		<IR name="Clip_414" out_port_id="1" id="395"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization_487" out_port_id="1297"/>
+		<IR name="BatchNormalization_487/variance/Fused_Add_" out_port_id="2" id="458"/>
+	</map>
+	<map>
+		<framework name="Constant_295" out_port_id="1060"/>
+		<IR name="Constant_29550403" out_port_id="0" id="283"/>
+	</map>
+	<map>
+		<framework name="Constant_500" out_port_id="1310"/>
+		<IR name="Constant_50051441" out_port_id="0" id="470"/>
+	</map>
+	<map>
+		<framework name="Constant_783" out_port_id="1629"/>
+		<IR name="Constant_78351372" out_port_id="0" id="767"/>
+	</map>
+	<map>
+		<framework name="Constant_696" out_port_id="1542"/>
+		<IR name="Constant_69650883" out_port_id="0" id="647"/>
+	</map>
+	<map>
+		<framework name="Clip_638" out_port_id="1484"/>
+		<IR name="Clip_638" out_port_id="1" id="566"/>
+	</map>
+	<map>
+		<framework name="Constant_171" out_port_id="909"/>
+		<IR name="Constant_17151504" out_port_id="0" id="200"/>
+	</map>
+	<map>
+		<framework name="Constant_300" out_port_id="1065"/>
+		<IR name="Constant_300" out_port_id="0" id="306"/>
+	</map>
+	<map>
+		<framework name="Constant_259" out_port_id="1015"/>
+		<IR name="Constant_25950808" out_port_id="0" id="155"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_377" out_port_id="1160"/>
+		<IR name="FakeQuantize_377" out_port_id="5" id="372"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_802" out_port_id="1648"/>
+		<IR name="FakeQuantize_802" out_port_id="5" id="793"/>
+	</map>
+	<map>
+		<framework name="Constant_73" out_port_id="784"/>
+		<IR name="Constant_73" out_port_id="0" id="65"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_601" out_port_id="1438"/>
+		<IR name="FakeQuantize_601" out_port_id="5" id="543"/>
+	</map>
+	<map>
+		<framework name="Unsqueeze_809" out_port_id="1655"/>
+		<IR name="Unsqueeze_809/Unsqueeze" out_port_id="2" id="804"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization_611" out_port_id="1448"/>
+		<IR name="BatchNormalization_611/variance/Fused_Add_" out_port_id="2" id="551"/>
+	</map>
+	<map>
+		<framework name="Constant_228" out_port_id="975"/>
+		<IR name="Constant_228" out_port_id="0" id="261"/>
+	</map>
+	<map>
+		<framework name="Constant_692" out_port_id="1538"/>
+		<IR name="Constant_692" out_port_id="0" id="631"/>
+	</map>
+	<map>
+		<framework name="Constant_653" out_port_id="1499"/>
+		<IR name="Constant_65351267" out_port_id="0" id="579"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization_4" out_port_id="697"/>
+		<IR name="BatchNormalization_4/variance/Fused_Add_" out_port_id="2" id="35"/>
+	</map>
+	<map>
+		<framework name="Constant_179" out_port_id="917"/>
+		<IR name="Constant_17951558" out_port_id="0" id="195"/>
+	</map>
+	<map>
+		<framework name="Constant_672" out_port_id="1518"/>
+		<IR name="Constant_672" out_port_id="0" id="603"/>
+	</map>
+	<map>
+		<framework name="nncf_module.backbone.features.4.conv.6.weight" out_port_id="nncf_module.backbone.features.4.conv.6.weight"/>
+		<IR name="BatchNormalization_147/mean/Fused_Mul__copy" out_port_id="0" id="186"/>
+	</map>
+	<map>
+		<framework name="nncf_module.backbone.features.11.conv.6.weight" out_port_id="nncf_module.backbone.features.11.conv.6.weight"/>
+		<IR name="BatchNormalization_419/mean/Fused_Mul__copy" out_port_id="0" id="397"/>
+	</map>
+	<map>
+		<framework name="Constant_801" out_port_id="1647"/>
+		<IR name="Constant_80151009" out_port_id="0" id="792"/>
+	</map>
+	<map>
+		<framework name="Constant_501" out_port_id="1311"/>
+		<IR name="Constant_50151036" out_port_id="0" id="471"/>
+	</map>
+	<map>
+		<framework name="Constant_771" out_port_id="1617"/>
+		<IR name="Constant_77150988" out_port_id="0" id="750"/>
+	</map>
+	<map>
+		<framework name="Constant_531" out_port_id="1350"/>
+		<IR name="Constant_531" out_port_id="0" id="133"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_664" out_port_id="1510"/>
+		<IR name="FakeQuantize_664" out_port_id="5" id="593"/>
+	</map>
+	<map>
+		<framework name="nncf_module.backbone.features.12.conv.6.weight" out_port_id="nncf_module.backbone.features.12.conv.6.weight"/>
+		<IR name="BatchNormalization_455/mean/Fused_Mul__copy" out_port_id="0" id="426"/>
+	</map>
+	<map>
+		<framework name="Shape_718" out_port_id="1564"/>
+		<IR name="Shape_718" out_port_id="1" id="665"/>
+	</map>
+	<map>
+		<framework name="Constant_0" out_port_id="693"/>
+		<IR name="Constant_0" out_port_id="0" id="29"/>
+	</map>
+	<map>
+		<framework name="Constant_288" out_port_id="1053"/>
+		<IR name="Constant_288" out_port_id="0" id="290"/>
+	</map>
+	<map>
+		<framework name="Unsqueeze_716" out_port_id="1562"/>
+		<IR name="Unsqueeze_716/Unsqueeze" out_port_id="2" id="681"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_614" out_port_id="1451"/>
+		<IR name="FakeQuantize_614" out_port_id="5" id="556"/>
+	</map>
+	<map>
+		<framework name="Clip_66" out_port_id="777"/>
+		<IR name="Clip_66" out_port_id="1" id="59"/>
+	</map>
+	<map>
+		<framework name="Constant_537" out_port_id="1356"/>
+		<IR name="Constant_53750961" out_port_id="0" id="491"/>
+	</map>
+	<map>
+		<framework name="Constant_728" out_port_id="1574"/>
+		<IR name="Constant_728" out_port_id="0" id="700"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization_519" out_port_id="1338"/>
+		<IR name="BatchNormalization_519/variance/Fused_Add_" out_port_id="2" id="477"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization_207" out_port_id="954"/>
+		<IR name="BatchNormalization_207/variance/Fused_Add_" out_port_id="2" id="242"/>
+	</map>
+	<map>
+		<framework name="Constant_295" out_port_id="1060"/>
+		<IR name="Constant_295" out_port_id="0" id="285"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_485" out_port_id="1295"/>
+		<IR name="FakeQuantize_485" out_port_id="5" id="455"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_684" out_port_id="1530"/>
+		<IR name="FakeQuantize_684" out_port_id="5" id="621"/>
+	</map>
+	<map>
+		<framework name="Constant_771" out_port_id="1617"/>
+		<IR name="Constant_771" out_port_id="0" id="752"/>
+	</map>
+	<map>
+		<framework name="Constant_228" out_port_id="975"/>
+		<IR name="Constant_22850595" out_port_id="0" id="259"/>
+	</map>
+	<map>
+		<framework name="nncf_module.backbone.features.15.conv.6.weight" out_port_id="nncf_module.backbone.features.15.conv.6.weight"/>
+		<IR name="BatchNormalization_571/mean/Fused_Mul__copy" out_port_id="0" id="514"/>
+	</map>
+	<map>
+		<framework name="Constant_67" out_port_id="778"/>
+		<IR name="Constant_67" out_port_id="0" id="6"/>
+	</map>
+	<map>
+		<framework name="nncf_module.backbone.features.17.conv.6.weight" out_port_id="nncf_module.backbone.features.17.conv.6.weight"/>
+		<IR name="BatchNormalization_651/mean/Fused_Mul__copy" out_port_id="0" id="573"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_794" out_port_id="1640"/>
+		<IR name="FakeQuantize_794" out_port_id="5" id="781"/>
+	</map>
+	<map>
+		<framework name="Constant_9" out_port_id="702"/>
+		<IR name="Constant_951264" out_port_id="0" id="25"/>
+	</map>
+	<map>
+		<framework name="Concat_818" out_port_id="1664"/>
+		<IR name="Concat_818" out_port_id="2" id="812"/>
+	</map>
+	<map>
+		<framework name="Constant_220" out_port_id="967"/>
+		<IR name="Constant_220" out_port_id="0" id="233"/>
+	</map>
+	<map>
+		<framework name="Constant_109" out_port_id="829"/>
+		<IR name="Constant_10951126" out_port_id="0" id="96"/>
+	</map>
+	<map>
+		<framework name="Constant_67" out_port_id="778"/>
+		<IR name="Constant_6751519" out_port_id="0" id="8"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_578" out_port_id="1406"/>
+		<IR name="FakeQuantize_578" out_port_id="5" id="527"/>
+	</map>
+	<map>
+		<framework name="Constant_793" out_port_id="1639"/>
+		<IR name="Constant_793" out_port_id="0" id="778"/>
+	</map>
+	<map>
+		<framework name="Shape_752" out_port_id="1598"/>
+		<IR name="Shape_752" out_port_id="1" id="723"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization_371" out_port_id="1154"/>
+		<IR name="BatchNormalization_371/variance/Fused_Add_" out_port_id="2" id="370"/>
+	</map>
+	<map>
+		<framework name="Constant_772" out_port_id="1618"/>
+		<IR name="Constant_772" out_port_id="0" id="753"/>
+	</map>
+	<map>
+		<framework name="Constant_171" out_port_id="909"/>
+		<IR name="Constant_171" out_port_id="0" id="201"/>
+	</map>
+	<map>
+		<framework name="Constant_524" out_port_id="1343"/>
+		<IR name="Constant_52451219" out_port_id="0" id="140"/>
+	</map>
+	<map>
+		<framework name="Constant_600" out_port_id="1437"/>
+		<IR name="Constant_60051255" out_port_id="0" id="536"/>
+	</map>
+	<map>
+		<framework name="Concat_731" out_port_id="1577"/>
+		<IR name="Concat_731" out_port_id="5" id="703"/>
+	</map>
+	<map>
+		<framework name="Constant_640" out_port_id="1486"/>
+		<IR name="Constant_640" out_port_id="0" id="129"/>
+	</map>
+	<map>
+		<framework name="Constant_420" out_port_id="1212"/>
+		<IR name="Constant_42050685" out_port_id="0" id="400"/>
+	</map>
+	<map>
+		<framework name="Constant_599" out_port_id="1436"/>
+		<IR name="Constant_59950646" out_port_id="0" id="534"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization_403" out_port_id="1195"/>
+		<IR name="BatchNormalization_403/variance/Fused_Add_" out_port_id="2" id="389"/>
+	</map>
+	<map>
+		<framework name="Clip_250" out_port_id="1006"/>
+		<IR name="Clip_250" out_port_id="1" id="267"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization_223" out_port_id="970"/>
+		<IR name="BatchNormalization_223/variance/Fused_Add_" out_port_id="2" id="252"/>
+	</map>
+	<map>
+		<framework name="Constant_491" out_port_id="1301"/>
+		<IR name="Constant_49151615" out_port_id="0" id="443"/>
+	</map>
+	<map>
+		<framework name="Constant_8" out_port_id="701"/>
+		<IR name="Constant_8" out_port_id="0" id="22"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization_131" out_port_id="860"/>
+		<IR name="BatchNormalization_131/variance/Fused_Add_" out_port_id="2" id="178"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_97" out_port_id="817"/>
+		<IR name="FakeQuantize_97" out_port_id="5" id="84"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_329" out_port_id="1103"/>
+		<IR name="FakeQuantize_329" out_port_id="5" id="332"/>
+	</map>
+	<map>
+		<framework name="Constant_8" out_port_id="701"/>
+		<IR name="Constant_851285" out_port_id="0" id="23"/>
+	</map>
+	<map>
+		<framework name="Concat_760" out_port_id="1606"/>
+		<IR name="Concat_760" out_port_id="2" id="734"/>
+	</map>
+	<map>
+		<framework name="Cast_766" out_port_id="1612"/>
+		<IR name="Concat_760" out_port_id="2" id="734"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization_690" out_port_id="1536"/>
+		<IR name="BatchNormalization_690/variance/Fused_Add_" out_port_id="2" id="630"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization_455" out_port_id="1256"/>
+		<IR name="BatchNormalization_455/variance/Fused_Add_" out_port_id="2" id="428"/>
+	</map>
+	<map>
+		<framework name="Concat_724" out_port_id="1570"/>
+		<IR name="Concat_724" out_port_id="2" id="683"/>
+	</map>
+	<map>
+		<framework name="Clip_598" out_port_id="1435"/>
+		<IR name="Clip_598" out_port_id="1" id="542"/>
+	</map>
+	<map>
+		<framework name="Constant_185" out_port_id="923"/>
+		<IR name="Constant_18551513" out_port_id="0" id="221"/>
+	</map>
+	<map>
+		<framework name="Constant_682" out_port_id="1528"/>
+		<IR name="Constant_682" out_port_id="0" id="619"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_33" out_port_id="735"/>
+		<IR name="FakeQuantize_33" out_port_id="5" id="42"/>
+	</map>
+	<map>
+		<framework name="Constant_739" out_port_id="1585"/>
+		<IR name="Constant_739" out_port_id="0" id="714"/>
+	</map>
+	<map>
+		<framework name="Constant_172" out_port_id="910"/>
+		<IR name="Constant_172" out_port_id="0" id="203"/>
+	</map>
+	<map>
+		<framework name="Constant_443" out_port_id="1244"/>
+		<IR name="Constant_443" out_port_id="0" id="411"/>
+	</map>
+	<map>
+		<framework name="nncf_module.backbone.features.6.conv.0.weight" out_port_id="nncf_module.backbone.features.6.conv.0.weight"/>
+		<IR name="BatchNormalization_207/mean/Fused_Mul__copy" out_port_id="0" id="240"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_654" out_port_id="1500"/>
+		<IR name="FakeQuantize_654" out_port_id="5" id="580"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_525" out_port_id="1344"/>
+		<IR name="FakeQuantize_525" out_port_id="5" id="479"/>
+	</map>
+	<map>
+		<framework name="Constant_713" out_port_id="1559"/>
+		<IR name="Constant_713" out_port_id="0" id="678"/>
+	</map>
+	<map>
+		<framework name="Constant_729" out_port_id="1575"/>
+		<IR name="Constant_72951273" out_port_id="0" id="701"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_445" out_port_id="1246"/>
+		<IR name="FakeQuantize_445" out_port_id="5" id="420"/>
+	</map>
+	<map>
+		<framework name="Constant_225" out_port_id="972"/>
+		<IR name="Constant_22550628" out_port_id="0" id="254"/>
+	</map>
+	<map>
+		<framework name="Gather_711" out_port_id="1557"/>
+		<IR name="Gather_7111276" out_port_id="3" id="674"/>
+	</map>
+	<map>
+		<framework name="nncf_module.backbone.features.14.conv.6.weight" out_port_id="nncf_module.backbone.features.14.conv.6.weight"/>
+		<IR name="BatchNormalization_535/mean/Fused_Mul__copy" out_port_id="0" id="485"/>
+	</map>
+	<map>
+		<framework name="Constant_301" out_port_id="1066"/>
+		<IR name="Constant_301" out_port_id="0" id="307"/>
+	</map>
+	<map>
+		<framework name="Constant_135" out_port_id="864"/>
+		<IR name="Constant_13550304" out_port_id="0" id="171"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_190" out_port_id="928"/>
+		<IR name="FakeQuantize_190" out_port_id="5" id="228"/>
+	</map>
+	<map>
+		<framework name="Constant_72" out_port_id="783"/>
+		<IR name="Constant_7251279" out_port_id="0" id="66"/>
+	</map>
+	<map>
+		<framework name="Constant_219" out_port_id="966"/>
+		<IR name="Constant_219" out_port_id="0" id="230"/>
+	</map>
+	<map>
+		<framework name="Constant_613" out_port_id="1450"/>
+		<IR name="Constant_613" out_port_id="0" id="555"/>
+	</map>
+	<map>
+		<framework name="Constant_613" out_port_id="1450"/>
+		<IR name="Constant_61351426" out_port_id="0" id="553"/>
+	</map>
+	<map>
+		<framework name="Constant_327" out_port_id="1101"/>
+		<IR name="Constant_32751447" out_port_id="0" id="324"/>
+	</map>
+	<map>
+		<framework name="nncf_module.backbone.features.2.conv.6.weight" out_port_id="nncf_module.backbone.features.2.conv.6.weight"/>
+		<IR name="BatchNormalization_71/mean/Fused_Mul__copy" out_port_id="0" id="61"/>
+	</map>
+	<map>
+		<framework name="Constant_697" out_port_id="1543"/>
+		<IR name="Constant_69750445" out_port_id="0" id="648"/>
+	</map>
+	<map>
+		<framework name="Constant_573" out_port_id="1401"/>
+		<IR name="Constant_57350514" out_port_id="0" id="520"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_798" out_port_id="1644"/>
+		<IR name="FakeQuantize_798/mulpiply_by_scale" out_port_id="2" id="785"/>
+	</map>
+	<map>
+		<framework name="Constant_224" out_port_id="971"/>
+		<IR name="Constant_22451555" out_port_id="0" id="253"/>
+	</map>
+	<map>
+		<framework name="Constant_800" out_port_id="1646"/>
+		<IR name="Constant_80050553" out_port_id="0" id="789"/>
+	</map>
+	<map>
+		<framework name="Constant_559" out_port_id="1387"/>
+		<IR name="Constant_559" out_port_id="0" id="499"/>
+	</map>
+	<map>
+		<framework name="Constant_0" out_port_id="693"/>
+		<IR name="Constant_050691" out_port_id="0" id="27"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_462" out_port_id="1263"/>
+		<IR name="FakeQuantize_462" out_port_id="5" id="439"/>
+	</map>
+	<map>
+		<framework name="Constant_304" out_port_id="1069"/>
+		<IR name="Constant_304" out_port_id="0" id="314"/>
+	</map>
+	<map>
+		<framework name="Constant_753" out_port_id="1599"/>
+		<IR name="Constant_753" out_port_id="0" id="724"/>
+	</map>
+	<map>
+		<framework name="Constant_706" out_port_id="1552"/>
+		<IR name="Constant_706" out_port_id="0" id="662"/>
+	</map>
+	<map>
+		<framework name="Slice_765" out_port_id="1611"/>
+		<IR name="Slice_765" out_port_id="4" id="721"/>
+	</map>
+	<map>
+		<framework name="Constant_608" out_port_id="1445"/>
+		<IR name="Constant_60851609" out_port_id="0" id="530"/>
+	</map>
+	<map>
+		<framework name="nncf_module.backbone.features.9.conv.0.weight" out_port_id="nncf_module.backbone.features.9.conv.0.weight"/>
+		<IR name="BatchNormalization_323/mean/Fused_Mul__copy" out_port_id="0" id="328"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization_27" out_port_id="729"/>
+		<IR name="BatchNormalization_27/variance/Fused_Add_" out_port_id="2" id="40"/>
+	</map>
+	<map>
+		<framework name="Constant_599" out_port_id="1436"/>
+		<IR name="Constant_599" out_port_id="0" id="535"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_674" out_port_id="1520"/>
+		<IR name="FakeQuantize_674" out_port_id="5" id="607"/>
+	</map>
+	<map>
+		<framework name="Constant_576" out_port_id="1404"/>
+		<IR name="Constant_576" out_port_id="0" id="525"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_538" out_port_id="1357"/>
+		<IR name="FakeQuantize_538" out_port_id="5" id="492"/>
+	</map>
+	<map>
+		<framework name="Add_499" out_port_id="1309"/>
+		<IR name="Add_499" out_port_id="2" id="469"/>
+	</map>
+	<map>
+		<framework name="Constant_185" out_port_id="923"/>
+		<IR name="Constant_185" out_port_id="0" id="219"/>
+	</map>
+	<map>
+		<framework name="Constant_220" out_port_id="967"/>
+		<IR name="Constant_22051528" out_port_id="0" id="231"/>
+	</map>
+	<map>
+		<framework name="Constant_492" out_port_id="1302"/>
+		<IR name="Constant_492" out_port_id="0" id="444"/>
+	</map>
+	<map>
+		<framework name="nncf_module.backbone.features.15.conv.0.weight" out_port_id="nncf_module.backbone.features.15.conv.0.weight"/>
+		<IR name="BatchNormalization_555/mean/Fused_Mul__copy" out_port_id="0" id="504"/>
+	</map>
+	<map>
+		<framework name="Constant_653" out_port_id="1499"/>
+		<IR name="Constant_653" out_port_id="0" id="577"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization_704" out_port_id="1550"/>
+		<IR name="BatchNormalization_704/variance/Fused_Add_" out_port_id="2" id="659"/>
+	</map>
+	<map>
+		<framework name="Constant_189" out_port_id="927"/>
+		<IR name="Constant_189" out_port_id="0" id="225"/>
+	</map>
+	<map>
+		<framework name="Constant_368" out_port_id="1151"/>
+		<IR name="Constant_368" out_port_id="0" id="361"/>
+	</map>
+	<map>
+		<framework name="x.1" out_port_id="x.1"/>
+		<IR name="x.1" out_port_id="0" id="31"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization_680" out_port_id="1526"/>
+		<IR name="BatchNormalization_680/variance/Fused_Add_" out_port_id="2" id="616"/>
+	</map>
+	<map>
+		<framework name="Constant_451" out_port_id="1252"/>
+		<IR name="Constant_451" out_port_id="0" id="406"/>
+	</map>
+	<map>
+		<framework name="Constant_749" out_port_id="1595"/>
+		<IR name="Constant_749" out_port_id="0" id="112"/>
+	</map>
+	<map>
+		<framework name="Constant_60" out_port_id="771"/>
+		<IR name="Constant_60" out_port_id="0" id="14"/>
+	</map>
+	<map>
+		<framework name="Constant_385" out_port_id="1168"/>
+		<IR name="Constant_385" out_port_id="0" id="385"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_114" out_port_id="834"/>
+		<IR name="FakeQuantize_114" out_port_id="5" id="103"/>
+	</map>
+	<map>
+		<framework name="Constant_662" out_port_id="1508"/>
+		<IR name="Constant_662" out_port_id="0" id="589"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_181" out_port_id="919"/>
+		<IR name="FakeQuantize_181" out_port_id="5" id="214"/>
+	</map>
+	<map>
+		<framework name="Constant_707" out_port_id="1553"/>
+		<IR name="Constant_70750793" out_port_id="0" id="663"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization_479" out_port_id="1289"/>
+		<IR name="BatchNormalization_479/variance/Fused_Add_" out_port_id="2" id="453"/>
+	</map>
+	<map>
+		<framework name="nncf_module.backbone.features.12.conv.0.weight" out_port_id="nncf_module.backbone.features.12.conv.0.weight"/>
+		<IR name="BatchNormalization_439/mean/Fused_Mul__copy" out_port_id="0" id="416"/>
+	</map>
+	<map>
+		<framework name="Clip_218" out_port_id="965"/>
+		<IR name="Clip_218" out_port_id="1" id="248"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization_439" out_port_id="1240"/>
+		<IR name="BatchNormalization_439/variance/Fused_Add_" out_port_id="2" id="418"/>
+	</map>
+	<map>
+		<framework name="Constant_95" out_port_id="815"/>
+		<IR name="Constant_9550856" out_port_id="0" id="76"/>
+	</map>
+	<map>
+		<framework name="Clip_646" out_port_id="1492"/>
+		<IR name="Clip_646" out_port_id="1" id="571"/>
+	</map>
+	<map>
+		<framework name="Constant_104" out_port_id="824"/>
+		<IR name="Constant_10451561" out_port_id="0" id="73"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization_71" out_port_id="782"/>
+		<IR name="BatchNormalization_71/variance/Fused_Add_" out_port_id="2" id="63"/>
+	</map>
+	<map>
+		<framework name="Constant_340" out_port_id="1114"/>
+		<IR name="Constant_34050487" out_port_id="0" id="341"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_561" out_port_id="1389"/>
+		<IR name="FakeQuantize_561" out_port_id="5" id="508"/>
+	</map>
+	<map>
+		<framework name="Constant_783" out_port_id="1629"/>
+		<IR name="Constant_783" out_port_id="0" id="765"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization_247" out_port_id="1003"/>
+		<IR name="BatchNormalization_247/variance/Fused_Add_" out_port_id="2" id="266"/>
+	</map>
+	<map>
+		<framework name="Constant_179" out_port_id="917"/>
+		<IR name="Constant_179" out_port_id="0" id="197"/>
+	</map>
+	<map>
+		<framework name="Constant_304" out_port_id="1069"/>
+		<IR name="Constant_30451618" out_port_id="0" id="312"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_702" out_port_id="1548"/>
+		<IR name="FakeQuantize_702/mulpiply_by_scale" out_port_id="2" id="657"/>
+	</map>
+	<map>
+		<framework name="Constant_444" out_port_id="1245"/>
+		<IR name="Constant_444" out_port_id="0" id="414"/>
+	</map>
+	<map>
+		<framework name="Constant_531" out_port_id="1350"/>
+		<IR name="Constant_53150973" out_port_id="0" id="135"/>
+	</map>
+	<map>
+		<framework name="Constant_385" out_port_id="1168"/>
+		<IR name="Constant_38550502" out_port_id="0" id="383"/>
+	</map>
+	<map>
+		<framework name="Constant_483" out_port_id="1293"/>
+		<IR name="Constant_483" out_port_id="0" id="446"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization_447" out_port_id="1248"/>
+		<IR name="BatchNormalization_447/variance/Fused_Add_" out_port_id="2" id="423"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_302" out_port_id="1067"/>
+		<IR name="FakeQuantize_302" out_port_id="5" id="310"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization_603" out_port_id="1440"/>
+		<IR name="BatchNormalization_603/variance/Fused_Add_" out_port_id="2" id="546"/>
+	</map>
+	<map>
+		<framework name="Clip_170" out_port_id="908"/>
+		<IR name="Clip_170" out_port_id="1" id="208"/>
+	</map>
+	<map>
+		<framework name="Constant_148" out_port_id="877"/>
+		<IR name="Constant_14851600" out_port_id="0" id="189"/>
+	</map>
+	<map>
+		<framework name="Constant_381" out_port_id="1164"/>
+		<IR name="Constant_38151576" out_port_id="0" id="377"/>
+	</map>
+	<map>
+		<framework name="Concat_717" out_port_id="1563"/>
+		<IR name="Concat_717" out_port_id="2" id="682"/>
+	</map>
+	<map>
+		<framework name="Cast_723" out_port_id="1569"/>
+		<IR name="Concat_717" out_port_id="2" id="682"/>
+	</map>
+	<map>
+		<framework name="Constant_73" out_port_id="784"/>
+		<IR name="Constant_7351057" out_port_id="0" id="67"/>
+	</map>
+	<map>
+		<framework name="nncf_module.backbone.features.16.conv.3.weight" out_port_id="nncf_module.backbone.features.16.conv.3.weight"/>
+		<IR name="BatchNormalization_603/mean/Fused_Mul__copy" out_port_id="0" id="544"/>
+	</map>
+	<map>
+		<framework name="Constant_136" out_port_id="865"/>
+		<IR name="Constant_13650661" out_port_id="0" id="173"/>
+	</map>
+	<map>
+		<framework name="Clip_558" out_port_id="1386"/>
+		<IR name="Clip_558" out_port_id="1" id="507"/>
+	</map>
+	<map>
+		<framework name="Constant_219" out_port_id="966"/>
+		<IR name="Constant_21951495" out_port_id="0" id="232"/>
+	</map>
+	<map>
+		<framework name="nncf_module.backbone.features.13.conv.0.weight" out_port_id="nncf_module.backbone.features.13.conv.0.weight"/>
+		<IR name="BatchNormalization_479/mean/Fused_Mul__copy" out_port_id="0" id="451"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_698" out_port_id="1544"/>
+		<IR name="FakeQuantize_698" out_port_id="5" id="651"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_417" out_port_id="1209"/>
+		<IR name="FakeQuantize_417" out_port_id="5" id="396"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization_635" out_port_id="1481"/>
+		<IR name="BatchNormalization_635/variance/Fused_Add_" out_port_id="2" id="565"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_658" out_port_id="1504"/>
+		<IR name="FakeQuantize_658/mulpiply_by_scale" out_port_id="2" id="586"/>
+	</map>
+	<map>
+		<framework name="Constant_31" out_port_id="733"/>
+		<IR name="Constant_3151570" out_port_id="0" id="19"/>
+	</map>
+	<map>
+		<framework name="Constant_327" out_port_id="1101"/>
+		<IR name="Constant_327" out_port_id="0" id="323"/>
+	</map>
+	<map>
+		<framework name="Constant_384" out_port_id="1167"/>
+		<IR name="Constant_384" out_port_id="0" id="382"/>
+	</map>
+	<map>
+		<framework name="Constant_108" out_port_id="828"/>
+		<IR name="Constant_10851207" out_port_id="0" id="95"/>
+	</map>
+	<map>
+		<framework name="Constant_573" out_port_id="1401"/>
+		<IR name="Constant_573" out_port_id="0" id="518"/>
+	</map>
+	<map>
+		<framework name="Constant_612" out_port_id="1449"/>
+		<IR name="Constant_612" out_port_id="0" id="552"/>
+	</map>
+	<map>
+		<framework name="Constant_617" out_port_id="1454"/>
+		<IR name="Constant_617" out_port_id="0" id="559"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_38" out_port_id="740"/>
+		<IR name="FakeQuantize_38" out_port_id="5" id="50"/>
+	</map>
+	<map>
+		<framework name="Constant_572" out_port_id="1400"/>
+		<IR name="Constant_57251459" out_port_id="0" id="519"/>
+	</map>
+	<map>
+		<framework name="Constant_340" out_port_id="1114"/>
+		<IR name="Constant_340" out_port_id="0" id="343"/>
+	</map>
+	<map>
+		<framework name="Constant_647" out_port_id="1493"/>
+		<IR name="Constant_64751462" out_port_id="0" id="124"/>
+	</map>
+	<map>
+		<framework name="Constant_36" out_port_id="738"/>
+		<IR name="Constant_3650700" out_port_id="0" id="48"/>
+	</map>
+	<map>
+		<framework name="Constant_652" out_port_id="1498"/>
+		<IR name="Constant_652" out_port_id="0" id="576"/>
+	</map>
+	<map>
+		<framework name="Constant_113" out_port_id="833"/>
+		<IR name="Constant_113" out_port_id="0" id="102"/>
+	</map>
+	<map>
+		<framework name="Constant_421" out_port_id="1213"/>
+		<IR name="Constant_42151501" out_port_id="0" id="403"/>
+	</map>
+	<map>
+		<framework name="Constant_376" out_port_id="1159"/>
+		<IR name="Constant_37651297" out_port_id="0" id="356"/>
+	</map>
+	<map>
+		<framework name="nncf_module.backbone.features.11.conv.0.weight" out_port_id="nncf_module.backbone.features.11.conv.0.weight"/>
+		<IR name="BatchNormalization_403/mean/Fused_Mul__copy" out_port_id="0" id="387"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_346" out_port_id="1120"/>
+		<IR name="FakeQuantize_346" out_port_id="5" id="351"/>
+	</map>
+	<map>
+		<framework name="Add_303" out_port_id="1068"/>
+		<IR name="Add_303" out_port_id="2" id="311"/>
+	</map>
+	<map>
+		<framework name="FakeQuantize_574" out_port_id="1402"/>
+		<IR name="FakeQuantize_574" out_port_id="5" id="521"/>
+	</map>
+	<map>
+		<framework name="Constant_336" out_port_id="1110"/>
+		<IR name="Constant_336" out_port_id="0" id="319"/>
+	</map>
+	<map>
+		<framework name="Constant_212" out_port_id="959"/>
+		<IR name="Constant_212" out_port_id="0" id="237"/>
+	</map>
+	<map>
+		<framework name="Constant_144" out_port_id="873"/>
+		<IR name="Constant_14451030" out_port_id="0" id="169"/>
+	</map>
+	<map>
+		<framework name="Clip_58" out_port_id="769"/>
+		<IR name="Clip_58" out_port_id="1" id="54"/>
+	</map>
+	<map>
+		<framework name="Constant_68" out_port_id="779"/>
+		<IR name="Constant_6851585" out_port_id="0" id="7"/>
+	</map>
+	<map>
+		<framework name="Clip_326" out_port_id="1100"/>
+		<IR name="Clip_326" out_port_id="1" id="331"/>
+	</map>
+	<map>
+		<framework name="Constant_728" out_port_id="1574"/>
+		<IR name="Constant_72851444" out_port_id="0" id="698"/>
+	</map>
+	<map>
+		<framework name="Constant_148" out_port_id="877"/>
+		<IR name="Constant_148" out_port_id="0" id="191"/>
+	</map>
+	<map>
+		<framework name="Constant_572" out_port_id="1400"/>
+		<IR name="Constant_572" out_port_id="0" id="517"/>
+	</map>
+	<map>
+		<framework name="Add_383" out_port_id="1166"/>
+		<IR name="Add_383" out_port_id="2" id="381"/>
+	</map>
+</mapping>

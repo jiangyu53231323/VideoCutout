@@ -361,3 +361,7 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/VideoCutout/TEST_01_int8
+/VideoCutout/TEST_02_int8
+/VideoCutout/TEST_03_int8
+/VideoCutout/TEST_19_int8

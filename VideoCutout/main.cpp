@@ -69,17 +69,17 @@ void object_segmentation() {
 	//int image_height = src.rows;
 	//int image_width = src.cols;
 	VideoCapture cap;
-	cap.open("./TEST_19.mp4");
+	cap.open("./TEST_03.mp4");
 	// 创建文件夹
-	string folderPath = "./TEST_19";
+	string folderPath = "./TEST_03_int8";
 	if (0 != access(folderPath.c_str(), 0))
 	{
 		mkdir(folderPath.c_str());   // 返回 0 表示创建成功，-1 表示失败
 	}
-	//float img_mean[3] = { 0.485, 0.456, 0.406 };  // RGB顺序
-	//float img_std[3] = { 0.229, 0.224, 0.225 };
-	float img_mean[3] = { 0.406, 0.456, 0.485 };  // BGR顺序
-	float img_std[3] = { 0.225, 0.224, 0.229 };
+	float img_mean[3] = { 0.485, 0.456, 0.406 };  // RGB顺序
+	float img_std[3] = { 0.229, 0.224, 0.225 };
+	//float img_mean[3] = { 0.406, 0.456, 0.485 };  // BGR顺序
+	//float img_std[3] = { 0.225, 0.224, 0.229 };
 
 	// 创建IE插件, 查询支持硬件设备
 	Core ie;
@@ -89,7 +89,7 @@ void object_segmentation() {
 	}
 
 	//  加载检测模型
-	auto network = ie.ReadNetwork("./deeplab_mobilenet.xml", "./deeplab_mobilenet.bin");
+	auto network = ie.ReadNetwork("./compressed_model.xml", "./compressed_model.bin");
 	// auto network = ie.ReadNetwork("D:/python/yolov5/yolov5s.onnx");
 
 	// 请求网络输入与输出信息
@@ -151,8 +151,8 @@ void object_segmentation() {
 			for (size_t row = 0; row < h; row++) {
 				for (size_t col = 0; col < w; col++) {
 					for (size_t ch = 0; ch < num_channels; ch++) {
-						data[image_size * ch + row * w + col] = (float(blob_image.at<Vec3b>(row, col)[ch]) / 255.0 - img_mean[ch]) / img_std[ch];
-						//data[image_size * ch + row * w + col] = float(blob_image.at<Vec3b>(row, col)[ch]) / 255.0;
+						//data[image_size * ch + row * w + col] = (float(blob_image.at<Vec3b>(row, col)[ch]) / 255.0 - img_mean[ch]) / img_std[ch];
+						data[image_size * ch + row * w + col] = float(blob_image.at<Vec3b>(row, col)[ch] / 255.0);
 					}
 				}
 			}
@@ -214,8 +214,8 @@ void object_segmentation() {
 				}
 			}
 			frame_num += 1;
-			imwrite("./TEST_19/" + to_string(frame_num) + "_mask.png", mask);
-			imwrite("./TEST_19/" + to_string(frame_num) + "_seg.png", seg_result);
+			imwrite("./TEST_03_int8/" + to_string(frame_num) + "_mask.png", mask);
+			imwrite("./TEST_03_int8/" + to_string(frame_num) + "_seg.png", seg_result);
 			//cv::imshow("例子3", mask);
 			//if (cv::waitKey(33) >= 0)
 			//	break;
